@@ -262,7 +262,7 @@ function vStation(){const c=curCap(),g=S.role==="guest";
  <select id="lg"><option value="en">🇬🇧 English</option><option value="ko">🇰🇷 한국어</option></select>
  <select id="ct"><option value="all">Mọi danh mục</option>${CATS.map(x=>`<option>${x}</option>`).join("")}</select></div>
  <div class="cap">${c?esc(c.t):S.caps.length?"Không có caption phù hợp.":catalogMessage("station")}</div>
- <div class="mu" style="margin:6px 0"><b style="color:var(--or)">#EomSeonghyeon #엄성현</b></div>
+ <div class="mu" style="margin:6px 0"><b style="color:var(--or)">#SEONGHYEON #성현 #ACEOMonTop #ソンヒョン</b></div>
  <div class="row"><button class="b" id="cp" ${c?"":"disabled"}>Copy</button><button class="b g" id="rn">Random</button>
  <button class="b g" id="fv" ${g||!c||!canEditProfile()?"disabled":""}>${c&&S.me.favs.includes(c.id)?"💛 Đã lưu":"🤍 Yêu thích"}</button></div>
  <div class="mu" style="margin-top:8px">${g?"Guest: copy được nhưng không lưu XP, streak, lịch sử.":"Hôm nay: "+(S.me.hist.filter(h=>tz(new Date(h.at))===tz()).length)+" caption · Streak "+S.me.streak+" 🔥"}</div></div>
