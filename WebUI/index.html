@@ -1,11 +1,37 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="vi">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>ALL FOR EOM SEONGHYEON VER 2.0</title>
-<link rel="stylesheet" href="./css/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>ALL FOR EOM SEONGHYEON VER 2.0</title>
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./main.js"></script>
 </head>
-<body><div class="wrap"><header><h1>🧡 ALL FOR EOM SEONGHYEON VER 2.0</h1></header><div id="auth-widget" class="card" style="display:flex;align-items:center;gap:10px;flex-wrap:wrap"></div><div class="stats" id="stats"></div><div class="card" id="notice"></div><nav id="nav"></nav><main id="view"></main><p class="muted">Dữ liệu caption, XP và streak hiện vẫn lưu cục bộ trong trình duyệt. Đăng nhập Firebase (khi cấu hình) chưa đồng bộ dữ liệu này.</p></div><div class="dock"><div class="player" id="player" hidden><div class="muted">🎧 SEONGHYEON playlist · phát nhạc cần Internet</div><iframe id="yt" title="SEONGHYEON playlist" allow="autoplay; encrypted-media" referrerpolicy="strict-origin-when-cross-origin"></iframe><a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PLq1T7LUE88u4IxwwYNDPMZq3U72u1oH5X">Mở playlist trên YouTube ↗</a></div><button class="primary" id="music">🎧 Playlist</button></div><div class="toast" id="toast"></div>
-<script src="./js/main.js" defer></script>
-<script type="module" src="./js/features/auth/auth.js"></script></body></html>
+<body>
+  <div class="w">
+    <header><h1>🧡 ALL FOR EOM SEONGHYEON VER 2.0</h1></header>
+    <div class="row">
+      <span id="account" hidden></span>
+      <button class="b g" id="auth" type="button" disabled>Đăng nhập Google</button>
+    </div>
+    <p id="auth-error" role="alert" hidden>Không thể kết nối đăng nhập Google. Hãy thử lại.</p>
+    <p class="mu" id="profile-status" role="status" hidden></p>
+    <button class="b g" id="profile-action" type="button" hidden></button>
+    <div class="c stat" id="cnt" style="margin-top:12px;grid-template-columns:repeat(2,1fr)"></div>
+    <div class="c" id="ann" hidden></div>
+    <nav id="nav" aria-label="Các mục"></nav>
+    <main id="v"></main>
+    <main id="events" hidden></main>
+    <p id="app-error" role="alert" hidden>Không thể tải trang. Hãy tải lại để thử lại.</p>
+  </div>
+  <div class="dock">
+    <div class="dp" id="playlist" hidden>
+      <div class="mu">🎧 SEONGHYEON playlist</div>
+      <a href="https://www.youtube.com/playlist?list=PLq1T7LUE88u4IxwwYNDPMZq3U72u1oH5X" target="_blank" rel="noopener noreferrer">Mở playlist trên YouTube ↗</a>
+    </div>
+    <button class="b" id="playlist-toggle" type="button" aria-controls="playlist" aria-expanded="false">🎧 Playlist</button>
+  </div>
+  <div id="fx" aria-hidden="true"><img alt="" src="./sticker.webp"></div>
+  <div class="toast" id="t" role="status"></div>
+</body>
+</html>

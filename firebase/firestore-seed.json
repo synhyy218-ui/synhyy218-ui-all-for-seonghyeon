@@ -1,0 +1,2376 @@
+{
+  "schemaVersion": 1,
+  "collections": {
+    "events": [
+      {
+        "id": "mama_2026",
+        "title": "[MASS TREND] SEONGHYEON COLLAB STAGE AT MAMA",
+        "startDate": "2026-11-20",
+        "endDate": "2026-11-20",
+        "tag": "#SEONGHYEONStageRoyalty",
+        "requiredCopies": 5,
+        "xpReward": 30,
+        "badge": "👑 MAMA Reign",
+        "status": "published",
+        "description": [
+          "Hôm nay, Seonghyeon sẽ góp mặt tại MAMA 2026! 🦊✨ Hãy cùng Eomland khởi động MASS TREND, đồng loạt phủ sóng các nền tảng mạng xã hội để chào đón Seonghyeon và lan tỏa sức hút của em ấy tại một trong những lễ trao giải âm nhạc lớn nhất Hàn Quốc nhé!",
+          "Đây là dịp để Eomies cùng nhau tạo nên một làn sóng ủng hộ thật mạnh mẽ, đưa tên tuổi Seonghyeon đến gần hơn với công chúng. Mỗi bài đăng, lượt tương tác và lần sử dụng hashtag đều góp phần tạo nên sức lan tỏa cho đợt trend lần này. Hãy cùng tham gia ngay từ những phút đầu tiên và để Seonghyeon trở thành tâm điểm của ngày hôm nay! ❤️‍🔥",
+          "Hẹn gặp mọi người lúc 13H00 VN! Cùng nhau phủ sóng MAMA 2026, tiếp thêm sức nóng cho Seonghyeon và lan tỏa hình ảnh một Seonghyeon đầy bản lĩnh trên sân khấu nhé! 🦊🤍"
+        ],
+        "tagline": "SEONGHYEON REIGNS OVER MAMA",
+        "hashtags": [
+          "#SEONGHYEONStageRoyalty",
+          "#SEONGHYEON",
+          "#성현"
+        ],
+        "keywords": [
+          "SEONGHYEON CORTIS",
+          "EOMRADIANT",
+          "EOMSEANTER"
+        ],
+        "notes": [
+          "Sử dụng chính xác tagline, keyword và hashtag đã được công bố.",
+          "Ưu tiên nội dung tự nhiên, đa dạng và có tương tác thật.",
+          "Hạn chế spam hoặc lặp lại cùng một nội dung liên tục.",
+          "Tích cực đăng tải và tương tác trong suốt thời gian diễn ra MASS TREND."
+        ],
+        "startsAt": "2026-11-20T13:00:00+07:00"
+      },
+      {
+        "id": "birthday_2027",
+        "title": "Sinh nhật Seonghyeon",
+        "startDate": "2026-11-20",
+        "endDate": "2027-01-13",
+        "tag": "#HappyBirthdaySeonghyeon",
+        "requiredCopies": 3,
+        "xpReward": 50,
+        "badge": "🎂 Birthday Star",
+        "status": "published"
+      }
+    ],
+    "events/mama_2026/captions": [
+      {
+        "id": "mama_001",
+        "text": "Counting down every single second until SEONGHYEON CORTIS steps out for this iconic collab stage! His EOMRADIANT energy and EOMSEANTER charisma prove he was born to own every single spotlight on stage!",
+        "order": 1,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_002",
+        "text": "Nothing compares to the EOMRADIANT glow that SEONGHYEON CORTIS brings to a live performance. Watching his EOMSEANTER talent shine brightly in this special collaboration will be pure magic tonight!",
+        "order": 2,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_003",
+        "text": "The anticipation for this collaboration stage is unreal because SEONGHYEON CORTIS never disappoints. With his EOMSEANTER artistry and EOMRADIANT aura, he is ready to captivate the entire MAMA arena.",
+        "order": 3,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_004",
+        "text": "Get ready to witness pure excellence when SEONGHYEON CORTIS hits the stage for his collab! That EOMRADIANT presence paired with unmatched EOMSEANTER skill will leave everyone completely breathless.",
+        "order": 4,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_005",
+        "text": "Every single movement from SEONGHYEON CORTIS commands instant attention, especially on a massive collab stage. His EOMSEANTER precision and EOMRADIANT charm make him an unforgettable force tonight!",
+        "order": 5,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_006",
+        "text": "We are eagerly waiting to see SEONGHYEON CORTIS light up this grand collaboration performance! His EOMRADIANT star quality and EOMSEANTER vocal power always turn every live stage into a masterpiece.",
+        "order": 6,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_007",
+        "text": "From his effortless EOMSEANTER groove to his EOMRADIANT visual aura, SEONGHYEON CORTIS is the main event of this collab. Cannot wait to watch him elevate the entire show with his rare brilliance!",
+        "order": 7,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_008",
+        "text": "When SEONGHYEON CORTIS takes center stage for this special collab, the whole atmosphere shifts instantly. His EOMRADIANT glow and EOMSEANTER dedication show why he stands at the very top tonight.",
+        "order": 8,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_009",
+        "text": "So excited for the upcoming collab featuring SEONGHYEON CORTIS! Nobody blends EOMSEANTER stage mastery and EOMRADIANT charisma quite like him when the lights go up and the music starts playing live.",
+        "order": 9,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_010",
+        "text": "Brace yourselves for an unforgettable night as SEONGHYEON CORTIS brings his EOMRADIANT presence to this collab! His EOMSEANTER talent always shines brightest when the stakes are at their highest.",
+        "order": 10,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_011",
+        "text": "There is a huge reason everyone is buzzing about SEONGHYEON CORTIS joining this collaboration stage. His EOMSEANTER versatility and EOMRADIANT energy guarantee a performance we will replay forever!",
+        "order": 11,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_012",
+        "text": "Watching SEONGHYEON CORTIS perform live is always a privilege, and this collab will be legendary. His EOMRADIANT aura and EOMSEANTER artistry are set to steal the entire show from the very first beat!",
+        "order": 12,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_013",
+        "text": "The stage practically begs for SEONGHYEON CORTIS whenever he steps into the center spotlight. With EOMSEANTER skill and EOMRADIANT charm, his special collaboration tonight is bound to make history.",
+        "order": 13,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_014",
+        "text": "Pure excitement is building fast as we await SEONGHYEON CORTIS on the collab stage! His EOMRADIANT presence and EOMSEANTER musicality always deliver goosebumps from start to finish every single time.",
+        "order": 14,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_015",
+        "text": "No matter who shares the stage, SEONGHYEON CORTIS always shines with an EOMRADIANT glow that cannot be dimmed. Ready to witness his EOMSEANTER brilliance shine through in this epic collaboration!",
+        "order": 15,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_016",
+        "text": "Tonight is all about celebrating the EOMSEANTER talent and EOMRADIANT aura of SEONGHYEON CORTIS! This special collaboration stage is the exact grand showcase his limitless artistry truly deserves.",
+        "order": 16,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_017",
+        "text": "You can feel the electricity rising ahead of the collab stage with SEONGHYEON CORTIS! His EOMRADIANT spirit and EOMSEANTER precision are about to remind everyone what true star power really looks like.",
+        "order": 17,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_018",
+        "text": "All eyes will naturally lock onto SEONGHYEON CORTIS the moment this collab begins. His EOMSEANTER command of the stage and EOMRADIANT glow make him impossible to look away from all night long at MAMA!",
+        "order": 18,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_019",
+        "text": "We have been waiting for a stage worthy of SEONGHYEON CORTIS and this collab is finally it! Expect dazzling EOMRADIANT energy and breathtaking EOMSEANTER talent from the very second he appears live.",
+        "order": 19,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_020",
+        "text": "Few performers possess the EOMRADIANT magnetism that SEONGHYEON CORTIS radiates so effortlessly on stage. Paired with his EOMSEANTER artistry, this collaboration performance is guaranteed to be iconic!",
+        "order": 20,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_021",
+        "text": "The countdown is finally on for SEONGHYEON CORTIS to grace the collab stage with his extraordinary gifts! His EOMSEANTER finesse and EOMRADIANT aura always turn live stages into pure stage magic.",
+        "order": 21,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_022",
+        "text": "Whenever SEONGHYEON CORTIS steps under the bright spotlights, pure magic happens instantly. We cannot wait to experience his EOMRADIANT presence and EOMSEANTER skill during tonight's special collab!",
+        "order": 22,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_023",
+        "text": "Get ready for jaws to drop when SEONGHYEON CORTIS unveils his true magic in this collaboration! His EOMSEANTER dedication and EOMRADIANT star power are truly on another level altogether right now!",
+        "order": 23,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_024",
+        "text": "That unmistakable EOMRADIANT aura belongs exclusively to SEONGHYEON CORTIS! Seeing him bring his EOMSEANTER talent to a massive collab stage tonight is every single fan's biggest dream come true.",
+        "order": 24,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_025",
+        "text": "Every beat hits so much harder whenever SEONGHYEON CORTIS is in the lineup! His EOMSEANTER rhythm and EOMRADIANT stage presence are going to make this collaboration the highlight of the entire night.",
+        "order": 25,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_026",
+        "text": "Anticipation is at an all-time high for SEONGHYEON CORTIS and his upcoming collab performance! With EOMRADIANT charm and EOMSEANTER mastery, he is destined to leave a lasting mark tonight at MAMA.",
+        "order": 26,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_027",
+        "text": "True artistry shines brightest under the main spotlight, and SEONGHYEON CORTIS proves it every time. Ready for his EOMSEANTER brilliance and EOMRADIANT glow to take over this collaboration stage!",
+        "order": 27,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_028",
+        "text": "From the first note to the final pose, SEONGHYEON CORTIS knows exactly how to mesmerize any crowd. His EOMRADIANT energy and EOMSEANTER talent will make tonight's special collab utterly unforgettable!",
+        "order": 28,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_029",
+        "text": "The sheer EOMSEANTER power and EOMRADIANT grace of SEONGHYEON CORTIS are completely unmatched! Counting every minute until he steps out and owns every single inch of that collaboration stage tonight.",
+        "order": 29,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_030",
+        "text": "Nobody brings fierce heat and elegance together quite like SEONGHYEON CORTIS! His EOMRADIANT presence and EOMSEANTER artistry are going to turn this special collab into the talk of the whole industry.",
+        "order": 30,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_031",
+        "text": "A special collaboration stage is the ultimate playground for SEONGHYEON CORTIS to flex his range! Watch his EOMSEANTER technique and EOMRADIANT aura captivate millions watching all around the world.",
+        "order": 31,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_032",
+        "text": "Our hearts are racing super fast waiting for SEONGHYEON CORTIS to appear in this star-studded collab! His EOMRADIANT glow and EOMSEANTER passion always set the gold standard for live performances.",
+        "order": 32,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_033",
+        "text": "When pure talent meets natural charisma, you get SEONGHYEON CORTIS owning the entire spotlight! Cannot wait to see his EOMSEANTER flair and EOMRADIANT aura illuminate tonight's grand collaboration.",
+        "order": 33,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_034",
+        "text": "Every single detail of his performance radiates EOMSEANTER perfection! So hyped to watch SEONGHYEON CORTIS bring his EOMRADIANT energy to this collab and leave the entire audience completely awestruck.",
+        "order": 34,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_035",
+        "text": "The center spotlight was tailor-made for SEONGHYEON CORTIS! His EOMRADIANT presence and EOMSEANTER artistry are ready to shine brighter than ever during tonight's highly anticipated collaboration.",
+        "order": 35,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_036",
+        "text": "Prepare to be amazed by the EOMSEANTER versatility of SEONGHYEON CORTIS on this grand collab stage! His EOMRADIANT aura effortlessly commands total respect and admiration from every single angle.",
+        "order": 36,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_037",
+        "text": "Nothing beats the sheer thrill of watching SEONGHYEON CORTIS live in action! With EOMRADIANT confidence and EOMSEANTER skill, his collaboration stage tonight will be remembered for many years to come.",
+        "order": 37,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_038",
+        "text": "He turns every single live stage into his own personal kingdom! Counting down until SEONGHYEON CORTIS unleashes his EOMSEANTER talent and EOMRADIANT charm in tonight's unforgettable collaboration.",
+        "order": 38,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_039",
+        "text": "With EOMRADIANT charisma that lights up the entire venue instantly, SEONGHYEON CORTIS is ready for his collab! His EOMSEANTER artistry proves once again why his star keeps rising higher and higher.",
+        "order": 39,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_040",
+        "text": "This collab stage is about to witness the unstoppable force of SEONGHYEON CORTIS! Expect pure EOMSEANTER excellence and an EOMRADIANT aura that steals every camera lens inside the whole building.",
+        "order": 40,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_041",
+        "text": "We already know SEONGHYEON CORTIS is going to deliver pure chills in this collaboration! His EOMRADIANT presence and EOMSEANTER mastery always elevate every performance to truly legendary status.",
+        "order": 41,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_042",
+        "text": "The rare combination of EOMSEANTER skill and EOMRADIANT beauty makes SEONGHYEON CORTIS truly one of a kind. So excited to cheer him on loudly as he conquers tonight's special collaboration stage!",
+        "order": 42,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_043",
+        "text": "All the massive hype surrounding this collab belongs to SEONGHYEON CORTIS! His EOMRADIANT glow and EOMSEANTER command of the music will undoubtedly make him the standout star of the entire night.",
+        "order": 43,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_044",
+        "text": "Step aside tonight because SEONGHYEON CORTIS is about to dazzle everyone on the collab stage! His EOMSEANTER precision and EOMRADIANT energy are the ultimate recipe for a truly iconic performance.",
+        "order": 44,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_045",
+        "text": "There is something deeply magnetic about watching SEONGHYEON CORTIS perform live! His EOMRADIANT spirit and EOMSEANTER talent are set to shine brilliantly in tonight's grand collaboration showcase.",
+        "order": 45,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_046",
+        "text": "Eagerly awaiting the exact moment SEONGHYEON CORTIS steps out for this dream collab! His EOMSEANTER artistry and EOMRADIANT aura always leave a lasting trail of pure awe wherever he performs live.",
+        "order": 46,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_047",
+        "text": "You simply cannot teach the kind of EOMRADIANT stage presence that SEONGHYEON CORTIS naturally possesses! Combined with his EOMSEANTER talent, this collab performance is going to be pure gold tonight.",
+        "order": 47,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_048",
+        "text": "Tonight's big collaboration just got infinitely better with SEONGHYEON CORTIS in the lineup! Watch his EOMSEANTER brilliance and EOMRADIANT charm captivate every single soul watching from near and far.",
+        "order": 48,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_049",
+        "text": "From his deeply expressive vocals to his razor-sharp dance moves, SEONGHYEON CORTIS embodies EOMSEANTER perfection! His EOMRADIANT glow on tonight's collab stage will be nothing short of breathtaking.",
+        "order": 49,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_050",
+        "text": "The whole world is tuning in live to watch SEONGHYEON CORTIS shine in this special collab! His EOMRADIANT energy and EOMSEANTER artistry always turn big moments into timeless stage memories at MAMA!",
+        "order": 50,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_051",
+        "text": "Whenever SEONGHYEON CORTIS takes the mic on stage, excellence is guaranteed! Ready to witness his EOMSEANTER power and EOMRADIANT aura illuminate every single corner of tonight's collaboration stage.",
+        "order": 51,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_052",
+        "text": "His EOMRADIANT aura alone could easily light up the entire arena tonight! Cannot wait to see SEONGHYEON CORTIS showcase his incredible EOMSEANTER talent in this thrilling special collaboration stage.",
+        "order": 52,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_053",
+        "text": "A true born performer knows how to own any stage, and SEONGHYEON CORTIS does it so effortlessly. His EOMSEANTER charisma and EOMRADIANT presence will make this collab an instant classic right now!",
+        "order": 53,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_054",
+        "text": "The excitement is completely off the charts as we wait for SEONGHYEON CORTIS on the collab stage! His EOMRADIANT glow and EOMSEANTER musicality never fail to leave the crowd wanting so much more.",
+        "order": 54,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_055",
+        "text": "Watch closely the instant SEONGHYEON CORTIS enters the camera frame tonight! His EOMSEANTER mastery and EOMRADIANT star quality will prove why he shines so brightly in every single collaboration.",
+        "order": 55,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_056",
+        "text": "Pure talent, unmatched grace, and an EOMRADIANT aura that stops time—that is SEONGHYEON CORTIS! So hyped to see his EOMSEANTER brilliance take center stage in tonight's special collab performance.",
+        "order": 56,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_057",
+        "text": "Every collaboration becomes instantly iconic the second SEONGHYEON CORTIS joins in! His EOMSEANTER artistry and EOMRADIANT presence are ready to deliver the live performance of a lifetime tonight.",
+        "order": 57,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_058",
+        "text": "We are counting down every single moment until SEONGHYEON CORTIS graces this special collab stage! His EOMRADIANT charm and EOMSEANTER skill always shine through with truly effortless perfection.",
+        "order": 58,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_059",
+        "text": "Nobody commands instant attention quite like SEONGHYEON CORTIS when the music drops! Expect his EOMSEANTER precision and EOMRADIANT glow to completely dominate tonight's grand collaboration stage.",
+        "order": 59,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_060",
+        "text": "The EOMSEANTER dedication of SEONGHYEON CORTIS shines clearly in every single rehearsal and live show! Cannot wait to watch his EOMRADIANT aura light up tonight's massive collab stage performance.",
+        "order": 60,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_061",
+        "text": "Get ready to witness true stage royalty in motion as SEONGHYEON CORTIS joins this collab! His EOMRADIANT presence and EOMSEANTER talent are guaranteed to steal hearts all across the entire globe.",
+        "order": 61,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_062",
+        "text": "That breathtaking EOMRADIANT aura of SEONGHYEON CORTIS is about to take over the night! Paired with his EOMSEANTER versatility, this special collaboration stage will be absolute stage perfection.",
+        "order": 62,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_063",
+        "text": "So endlessly proud and excited to see SEONGHYEON CORTIS step onto this prestigious collab stage! His EOMSEANTER artistry and EOMRADIANT energy always bring out the absolute best in every live show.",
+        "order": 63,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_064",
+        "text": "When SEONGHYEON CORTIS performs live, you do not just watch—you feel every single note! His EOMRADIANT glow and EOMSEANTER skill will make tonight's special collaboration stage truly unforgettable.",
+        "order": 64,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_065",
+        "text": "The stage lights always seem to shine brighter whenever SEONGHYEON CORTIS is standing beneath them! Ready for his EOMSEANTER charisma and EOMRADIANT aura to dazzle everyone in this special collab.",
+        "order": 65,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_066",
+        "text": "Every single fan knows SEONGHYEON CORTIS never holds back on stage! With EOMRADIANT confidence and EOMSEANTER mastery, his special collaboration tonight is set to surpass all of our expectations.",
+        "order": 66,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_067",
+        "text": "Look at the way SEONGHYEON CORTIS effortlessly blends raw power and elegance! His EOMSEANTER talent and EOMRADIANT presence are the exact kind of magic this special collaboration stage truly deserves.",
+        "order": 67,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_068",
+        "text": "Anticipating the thrilling moment SEONGHYEON CORTIS steps forward and owns this collab! His EOMRADIANT star power and EOMSEANTER finesse always deliver an unforgettable sensory experience on stage.",
+        "order": 68,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_069",
+        "text": "From start to finish, SEONGHYEON CORTIS knows exactly how to hold an audience spellbound! His EOMSEANTER artistry and EOMRADIANT glow are going to make tonight's special collab pure magic on stage!",
+        "order": 69,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_070",
+        "text": "There is truly no limit to what SEONGHYEON CORTIS can achieve when he steps onto a live stage! Cannot wait to watch his EOMRADIANT energy and EOMSEANTER skill shine brightly in this epic collab stage.",
+        "order": 70,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_071",
+        "text": "With EOMSEANTER precision in every move and an EOMRADIANT smile that melts hearts, SEONGHYEON CORTIS is ready! Tonight's collaboration stage belongs completely to his extraordinary musical talent.",
+        "order": 71,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_072",
+        "text": "The anticipation for SEONGHYEON CORTIS on this collab stage is completely electric! His EOMRADIANT aura and EOMSEANTER artistry will undoubtedly create one of the most talked-about moments tonight.",
+        "order": 72,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_073",
+        "text": "He was truly born to perform under the brightest stage lights! Watching SEONGHYEON CORTIS bring his EOMSEANTER passion and EOMRADIANT presence to this special collaboration is going to be pure bliss.",
+        "order": 73,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_074",
+        "text": "Every glance, every note, and every step from SEONGHYEON CORTIS exudes pure EOMSEANTER brilliance! So excited to see his EOMRADIANT aura illuminate tonight's special collaboration stage right now!",
+        "order": 74,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_075",
+        "text": "Nothing in the world can dim the EOMRADIANT shine of SEONGHYEON CORTIS when he is in his element! Get ready to witness his EOMSEANTER talent take this collaboration performance to brand-new heights.",
+        "order": 75,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_076",
+        "text": "We are ready to cheer louder than ever when SEONGHYEON CORTIS hits the collab stage tonight! His EOMSEANTER charisma and EOMRADIANT glow always turn great live shows into truly unforgettable nights!",
+        "order": 76,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_077",
+        "text": "True star power looks effortless, and SEONGHYEON CORTIS proves it every single time he appears on stage! His EOMRADIANT presence and EOMSEANTER skill are set to make tonight's collab truly iconic.",
+        "order": 77,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_078",
+        "text": "Count on SEONGHYEON CORTIS to bring unmatched intensity and grace to this collaboration stage! His EOMSEANTER mastery and EOMRADIANT aura will captivate every single viewer from the very first second.",
+        "order": 78,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_079",
+        "text": "The whole stage comes alive the instant SEONGHYEON CORTIS steps onto it! Cannot wait to experience his EOMRADIANT energy and EOMSEANTER artistry during tonight's special collaboration showcase live.",
+        "order": 79,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_080",
+        "text": "With an EOMRADIANT presence that commands the whole room instantly, SEONGHYEON CORTIS is unstoppable! His EOMSEANTER talent is going to shine brighter than ever on tonight's grand collab stage at MAMA.",
+        "order": 80,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_081",
+        "text": "This special collaboration is the perfect grand canvas for SEONGHYEON CORTIS to paint his magic! Expect mesmerizing EOMSEANTER skill and an EOMRADIANT glow that leaves everyone watching in pure awe.",
+        "order": 81,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_082",
+        "text": "Every live performance by SEONGHYEON CORTIS feels like a masterclass in pure charisma! So excited to see his EOMRADIANT aura and EOMSEANTER precision elevate tonight's special collaboration stage.",
+        "order": 82,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_083",
+        "text": "The center spotlight loves SEONGHYEON CORTIS just as much as the audience does! His EOMSEANTER versatility and EOMRADIANT charm are ready to steal the entire show in this epic MAMA collaboration.",
+        "order": 83,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_084",
+        "text": "Hold your breath tonight because SEONGHYEON CORTIS is about to deliver pure brilliance in this collab! His EOMRADIANT spirit and EOMSEANTER artistry never fail to amaze everyone watching the show.",
+        "order": 84,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_085",
+        "text": "From his commanding stage posture to his expressive artistry, SEONGHYEON CORTIS truly has it all! Watch his EOMSEANTER talent and EOMRADIANT glow light up tonight's grand collaboration performance.",
+        "order": 85,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_086",
+        "text": "So endlessly thrilled to watch SEONGHYEON CORTIS share his gifts on such a grand collab stage! His EOMRADIANT energy and EOMSEANTER finesse will make every second completely worth the wait at MAMA.",
+        "order": 86,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_087",
+        "text": "When SEONGHYEON CORTIS steps out on stage, the energy in the arena skyrockets instantly! His EOMSEANTER charisma and EOMRADIANT aura are set to turn tonight's special collab into pure stage history!",
+        "order": 87,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_088",
+        "text": "Nobody else in music carries that signature EOMRADIANT glow quite like SEONGHYEON CORTIS! Paired with his EOMSEANTER stage mastery, this collaboration is guaranteed to be the entire night's peak.",
+        "order": 88,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_089",
+        "text": "We are counting every single heartbeat until SEONGHYEON CORTIS appears for his special collab! His EOMSEANTER dedication and EOMRADIANT presence always create pure magic on the biggest live stages!",
+        "order": 89,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_090",
+        "text": "Expect nothing less than absolute perfection when SEONGHYEON CORTIS takes over this collab stage! His EOMRADIANT charm and EOMSEANTER talent are ready to dazzle fans all around the whole wide globe!",
+        "order": 90,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_091",
+        "text": "The sheer musical artistry of SEONGHYEON CORTIS truly knows no bounds! Cannot wait to see his EOMSEANTER precision and EOMRADIANT aura shine together in tonight's highly awaited MAMA collaboration!",
+        "order": 91,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_092",
+        "text": "Every single time SEONGHYEON CORTIS performs, he raises the bar even higher! His EOMRADIANT presence and EOMSEANTER skill will make tonight's special collab stage an unforgettable live masterpiece!",
+        "order": 92,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_093",
+        "text": "Lighting up the grand stage with EOMRADIANT brilliance and EOMSEANTER poise, SEONGHYEON CORTIS is ready! Tonight's collaboration is going to prove once more why he is undeniable stage royalty at MAMA!",
+        "order": 93,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_094",
+        "text": "The anticipation is building super fast as we await SEONGHYEON CORTIS on the collab stage tonight! His EOMSEANTER artistry and EOMRADIANT glow always captivate everyone from the very first moment.",
+        "order": 94,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_095",
+        "text": "Watch how effortlessly SEONGHYEON CORTIS owns every single beat and camera angle tonight! His EOMRADIANT energy and EOMSEANTER talent will make this special collaboration stage at MAMA legendary!",
+        "order": 95,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_096",
+        "text": "A rising star of rare brilliance, SEONGHYEON CORTIS brings EOMSEANTER power to every stage! So excited to witness his EOMRADIANT aura illuminate tonight's grand collaboration performance at MAMA.",
+        "order": 96,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_097",
+        "text": "Nothing matches the pure hype of seeing SEONGHYEON CORTIS unveil a brand-new collab stage! His EOMRADIANT charisma and EOMSEANTER mastery are guaranteed to leave everyone watching completely speechless.",
+        "order": 97,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_098",
+        "text": "From his captivating aura to his razor-sharp execution, SEONGHYEON CORTIS shines supreme! Cannot wait for his EOMSEANTER brilliance and EOMRADIANT charm to rule tonight's special collab stage live!",
+        "order": 98,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_099",
+        "text": "Tonight truly belongs to the unstoppable EOMSEANTER talent of SEONGHYEON CORTIS! Ready to see his EOMRADIANT presence shine brightest of all on this spectacular collaboration stage at MAMA tonight!",
+        "order": 99,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_100",
+        "text": "Every second waiting for SEONGHYEON CORTIS on this collab stage feels like an eternity! His EOMRADIANT glow and EOMSEANTER artistry are about to deliver pure stage magic to the entire world tonight!",
+        "order": 100,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_101",
+        "text": "Nothing in the music world compares to watching SEONGHYEON CORTIS command a massive stage! His EOMRADIANT presence and EOMSEANTER talent are about to turn this MAMA collaboration into pure history.",
+        "order": 101,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_102",
+        "text": "The moment SEONGHYEON CORTIS steps out under the bright arena lights, every eye locks on him! Ready for his EOMSEANTER artistry and EOMRADIANT aura to steal the entire MAMA collaboration tonight.",
+        "order": 102,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_103",
+        "text": "We are eagerly counting every single minute until SEONGHYEON CORTIS graces the MAMA stage! His EOMRADIANT charisma and EOMSEANTER skill guarantee a collaboration performance we will never forget.",
+        "order": 103,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_104",
+        "text": "Pure star power cannot be hidden, and SEONGHYEON CORTIS proves it every time he performs! His EOMSEANTER mastery and EOMRADIANT glow are set to dazzle the whole world during tonight's MAMA collab.",
+        "order": 104,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_105",
+        "text": "Get ready for an unforgettable sensory experience when SEONGHYEON CORTIS joins this collab! That signature EOMRADIANT aura paired with razor-sharp EOMSEANTER talent will leave everyone breathless.",
+        "order": 105,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_106",
+        "text": "All the buzz around MAMA tonight is because SEONGHYEON CORTIS is taking the collab stage! His EOMSEANTER musicality and EOMRADIANT energy always elevate every single performance to legendary heights.",
+        "order": 106,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_107",
+        "text": "When SEONGHYEON CORTIS moves to the rhythm, the entire venue feels his magnetic pull! Cannot wait to see his EOMRADIANT brilliance and EOMSEANTER precision shine brightest in tonight's collaboration.",
+        "order": 107,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_108",
+        "text": "He was truly destined for grand stages like MAMA! Watching SEONGHYEON CORTIS bring his EOMSEANTER passion and EOMRADIANT charm to this special collaboration stage is going to be pure magic tonight.",
+        "order": 108,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_109",
+        "text": "With an EOMRADIANT aura that lights up every single camera angle, SEONGHYEON CORTIS is unstoppable! His EOMSEANTER artistry is ready to captivate millions of viewers during tonight's MAMA collab stage.",
+        "order": 109,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_110",
+        "text": "Every beat feels electric whenever SEONGHYEON CORTIS steps into the center spotlight! Expect breathtaking EOMSEANTER technique and an EOMRADIANT presence that completely rules tonight's MAMA collab.",
+        "order": 110,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_111",
+        "text": "So thrilled to watch SEONGHYEON CORTIS showcase his limitless range on this grand stage! His EOMRADIANT spirit and EOMSEANTER dedication always make every single live collaboration feel like pure art.",
+        "order": 111,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_112",
+        "text": "You can already feel the excitement surging ahead of the MAMA collab with SEONGHYEON CORTIS! His EOMSEANTER finesse and EOMRADIANT glow are guaranteed to make him the standout star of the whole night.",
+        "order": 112,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_113",
+        "text": "Nobody owns a live stage with more grace and fierce intensity than SEONGHYEON CORTIS! Ready to cheer loudly as his EOMRADIANT energy and EOMSEANTER talent take over tonight's iconic MAMA collaboration.",
+        "order": 113,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_114",
+        "text": "From his captivating expressions to his flawless execution, SEONGHYEON CORTIS has it all! His EOMSEANTER brilliance and EOMRADIANT aura will make tonight's special collaboration utterly unforgettable.",
+        "order": 114,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_115",
+        "text": "The MAMA stage is about to witness true excellence when SEONGHYEON CORTIS appears tonight! With EOMRADIANT confidence and EOMSEANTER skill, his collaboration performance will leave everyone in awe.",
+        "order": 115,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_116",
+        "text": "Every single fan knows that SEONGHYEON CORTIS turns big moments into timeless memories! Cannot wait for his EOMSEANTER charisma and EOMRADIANT glow to illuminate tonight's grand MAMA collab stage.",
+        "order": 116,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_117",
+        "text": "Brace yourselves for chills the instant SEONGHYEON CORTIS takes the mic tonight at MAMA! His EOMRADIANT star quality and EOMSEANTER mastery are the ultimate combination for an iconic collaboration.",
+        "order": 117,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_118",
+        "text": "There is something truly extraordinary about the way SEONGHYEON CORTIS commands a crowd! Watch his EOMSEANTER artistry and EOMRADIANT presence shine brighter than ever in tonight's big MAMA collab.",
+        "order": 118,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_119",
+        "text": "Counting down with pure excitement until SEONGHYEON CORTIS unveils this brand-new collab! His EOMRADIANT charm and EOMSEANTER precision always set the highest standard for live stage performances.",
+        "order": 119,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_120",
+        "text": "Whenever SEONGHYEON CORTIS steps onto the stage, magic fills every corner of the arena! Ready to witness his EOMSEANTER talent and EOMRADIANT aura dazzle everyone at MAMA during this special collab.",
+        "order": 120,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_121",
+        "text": "True stage royalty shines effortlessly, and SEONGHYEON CORTIS proves it every single night! His EOMRADIANT energy and EOMSEANTER versatility are about to make tonight's MAMA collaboration legendary.",
+        "order": 121,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_122",
+        "text": "Our eyes will be glued to the screen waiting for SEONGHYEON CORTIS to appear at MAMA! Expect unmatched EOMSEANTER power and an EOMRADIANT glow that steals the entire spotlight in this epic collab.",
+        "order": 122,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_123",
+        "text": "He brings unmatched soul, precision, and charisma to every single note he delivers live! So excited to see SEONGHYEON CORTIS light up tonight's MAMA collab with his EOMRADIANT and EOMSEANTER magic.",
+        "order": 123,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_124",
+        "text": "This special MAMA collaboration was practically made for SEONGHYEON CORTIS to shine! His EOMSEANTER skill and EOMRADIANT aura will effortlessly captivate every soul watching from around the world.",
+        "order": 124,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_125",
+        "text": "The anticipation for SEONGHYEON CORTIS on the MAMA stage has everyone talking non-stop! With EOMRADIANT presence and EOMSEANTER artistry, he is ready to deliver the performance of the entire night.",
+        "order": 125,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_126",
+        "text": "From the opening note to the final spotlight, SEONGHYEON CORTIS never fails to amaze! His EOMSEANTER dedication and EOMRADIANT charm are going to make tonight's MAMA collaboration pure perfection.",
+        "order": 126,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_127",
+        "text": "Nothing can match the thrill of seeing SEONGHYEON CORTIS conquer a massive arena stage! Watch his EOMRADIANT spirit and EOMSEANTER talent shine brilliantly throughout tonight's MAMA collaboration.",
+        "order": 127,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_128",
+        "text": "With EOMSEANTER mastery in every step and an EOMRADIANT aura that captivates instantly, SEONGHYEON CORTIS is ready! Tonight's MAMA collaboration stage belongs completely to his extraordinary gifts.",
+        "order": 128,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_129",
+        "text": "All the spotlights at MAMA are waiting to shine on SEONGHYEON CORTIS tonight! His EOMRADIANT presence and EOMSEANTER musicality will turn this special collaboration into an unforgettable triumph.",
+        "order": 129,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_130",
+        "text": "We have been dreaming of seeing SEONGHYEON CORTIS on a collaboration stage like this! His EOMSEANTER brilliance and EOMRADIANT energy are guaranteed to leave the entire arena completely speechless.",
+        "order": 130,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_131",
+        "text": "Every single time SEONGHYEON CORTIS steps out to perform, he reminds us why we admire him so much! Ready for his EOMRADIANT glow and EOMSEANTER finesse to dominate tonight's grand MAMA collaboration.",
+        "order": 131,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_132",
+        "text": "Pure artistry meets unstoppable charisma whenever SEONGHYEON CORTIS takes center stage! Cannot wait to experience his EOMSEANTER talent and EOMRADIANT aura during tonight's special MAMA collab stage.",
+        "order": 132,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_133",
+        "text": "The energy in the entire building will explode the second SEONGHYEON CORTIS makes his entrance! His EOMRADIANT star power and EOMSEANTER precision are set to make tonight's MAMA collaboration historic.",
+        "order": 133,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_134",
+        "text": "Look at how effortlessly SEONGHYEON CORTIS commands every beat and every camera lens! His EOMSEANTER artistry and EOMRADIANT charm will make this MAMA collaboration stage one for the history books.",
+        "order": 134,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_135",
+        "text": "So endlessly proud to watch SEONGHYEON CORTIS shine on one of music's biggest stages tonight! His EOMRADIANT presence and EOMSEANTER skill always bring unmatched magic to every single live collaboration.",
+        "order": 135,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_136",
+        "text": "When SEONGHYEON CORTIS performs live, every single second feels like a masterpiece in motion! Expect his EOMSEANTER power and EOMRADIANT glow to completely mesmerize the whole audience at MAMA tonight.",
+        "order": 136,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_137",
+        "text": "That rare EOMRADIANT magnetism of SEONGHYEON CORTIS draws everyone in from miles away! Combined with his EOMSEANTER stage mastery, tonight's MAMA collaboration performance is going to be pure gold.",
+        "order": 137,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_138",
+        "text": "Eagerly awaiting the exact moment SEONGHYEON CORTIS steps forward for his MAMA collab stage! His EOMSEANTER dedication and EOMRADIANT aura never fail to deliver goosebumps from the very first second.",
+        "order": 138,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_139",
+        "text": "He owns every inch of the stage with effortless poise and fierce passion! Cannot wait to watch SEONGHYEON CORTIS unleash his EOMRADIANT energy and EOMSEANTER talent in tonight's MAMA collaboration.",
+        "order": 139,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_140",
+        "text": "Tonight's big MAMA lineup shines ten times brighter with SEONGHYEON CORTIS in this collab! Watch his EOMSEANTER brilliance and EOMRADIANT charm captivate millions of fans tuning in across the globe.",
+        "order": 140,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_141",
+        "text": "From his razor-sharp choreography to his soulful delivery, SEONGHYEON CORTIS is unmatched! His EOMRADIANT aura and EOMSEANTER skill will make tonight's MAMA collaboration stage truly unforgettable.",
+        "order": 141,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_142",
+        "text": "The countdown to see SEONGHYEON CORTIS at MAMA is almost over and the hype is real! Expect dazzling EOMSEANTER artistry and an EOMRADIANT presence that steals the entire show from start to finish.",
+        "order": 142,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_143",
+        "text": "Nobody blends fierce intensity and effortless elegance quite like SEONGHYEON CORTIS! Ready for his EOMRADIANT glow and EOMSEANTER mastery to elevate tonight's MAMA collaboration to brand-new heights.",
+        "order": 143,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_144",
+        "text": "A true artist transforms every stage into magic, and SEONGHYEON CORTIS does it every time! His EOMSEANTER passion and EOMRADIANT charisma are ready to dazzle everyone during tonight's MAMA collab.",
+        "order": 144,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_145",
+        "text": "We are ready to scream our hearts out when SEONGHYEON CORTIS appears on the MAMA stage tonight! His EOMRADIANT energy and EOMSEANTER talent always turn live collaborations into pure legendary moments.",
+        "order": 145,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_146",
+        "text": "With an EOMSEANTER command of the stage that leaves zero doubt, SEONGHYEON CORTIS is totally ready! His EOMRADIANT presence is going to shine brightest of all on tonight's spectacular MAMA collab stage.",
+        "order": 146,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_147",
+        "text": "Every single glance from SEONGHYEON CORTIS carries pure star quality and undeniable confidence! So excited to see his EOMRADIANT aura and EOMSEANTER precision light up tonight's MAMA collaboration.",
+        "order": 147,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_148",
+        "text": "This MAMA collaboration is the ultimate showcase for the limitless gifts of SEONGHYEON CORTIS! Watch his EOMSEANTER versatility and EOMRADIANT charm leave every single viewer completely awestruck.",
+        "order": 148,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_149",
+        "text": "Holding our breath in pure excitement as we wait for SEONGHYEON CORTIS to take the MAMA stage! His EOMRADIANT spirit and EOMSEANTER artistry are guaranteed to deliver an iconic collaboration tonight.",
+        "order": 149,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_150",
+        "text": "Whenever SEONGHYEON CORTIS shares his music live, the entire world stops to watch in awe! Ready for his EOMSEANTER skill and EOMRADIANT glow to conquer tonight's special collaboration stage at MAMA.",
+        "order": 150,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_151",
+        "text": "His EOMRADIANT presence alone commands instant respect the very second he steps into view! Cannot wait to watch SEONGHYEON CORTIS showcase his phenomenal EOMSEANTER talent in tonight's MAMA collab.",
+        "order": 151,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_152",
+        "text": "Pure excellence is always on the menu whenever SEONGHYEON CORTIS steps onto a live stage! His EOMSEANTER finesse and EOMRADIANT energy will make tonight's big MAMA collaboration an instant classic.",
+        "order": 152,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_153",
+        "text": "The stage lights were practically built to reflect the EOMRADIANT glow of SEONGHYEON CORTIS! Paired with his EOMSEANTER artistry, tonight's MAMA collab performance is bound to break the internet.",
+        "order": 153,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_154",
+        "text": "Counting every single heartbeat until SEONGHYEON CORTIS graces the MAMA collaboration stage! His EOMSEANTER dedication and EOMRADIANT charm always turn big nights into unforgettable musical milestones.",
+        "order": 154,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_155",
+        "text": "You simply cannot fake the kind of EOMRADIANT charisma that SEONGHYEON CORTIS brings effortlessly! Combined with his EOMSEANTER mastery, this MAMA collaboration stage will be talked about for years.",
+        "order": 155,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_156",
+        "text": "All eyes across the entire music world are locked onto SEONGHYEON CORTIS ahead of his MAMA collab! Expect breathtaking EOMSEANTER precision and an EOMRADIANT aura that illuminates the whole arena.",
+        "order": 156,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_157",
+        "text": "He steps onto the live stage and instantly turns every beat into pure electricity! So hyped to watch SEONGHYEON CORTIS bring his EOMRADIANT presence and EOMSEANTER talent to tonight's MAMA collab.",
+        "order": 157,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_158",
+        "text": "From the very first rehearsal clip to the live broadcast, SEONGHYEON CORTIS radiates pure perfection! His EOMSEANTER artistry and EOMRADIANT glow are ready to rule tonight's MAMA collaboration stage.",
+        "order": 158,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_159",
+        "text": "There is simply no stopping the momentum of SEONGHYEON CORTIS when he hits a grand stage! Ready to witness his EOMRADIANT energy and EOMSEANTER skill shine brilliantly in tonight's MAMA collaboration.",
+        "order": 159,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_160",
+        "text": "Every single live performance by SEONGHYEON CORTIS proves he was born to be a global icon! His EOMSEANTER charisma and EOMRADIANT aura will make tonight's MAMA collab stage an absolute masterpiece.",
+        "order": 160,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_161",
+        "text": "The sheer thrill of waiting for SEONGHYEON CORTIS to appear at MAMA is completely unmatched! With EOMRADIANT confidence and EOMSEANTER talent, he is ready to own every second of this collaboration.",
+        "order": 161,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_162",
+        "text": "Watch closely how SEONGHYEON CORTIS effortlessly captivates both the arena and the cameras tonight! His EOMSEANTER musicality and EOMRADIANT presence are set to make this MAMA collaboration legendary.",
+        "order": 162,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_163",
+        "text": "So endlessly excited to see SEONGHYEON CORTIS command the spotlight in this dream collab stage! His EOMRADIANT charm and EOMSEANTER precision always deliver an unforgettable show on the MAMA stage.",
+        "order": 163,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_164",
+        "text": "When SEONGHYEON CORTIS takes center stage tonight, every other detail fades right into the background! Expect pure EOMSEANTER brilliance and an EOMRADIANT glow that mesmerizes everyone at MAMA tonight.",
+        "order": 164,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_165",
+        "text": "His deep dedication to his craft shines through in every single movement and vocal run! Cannot wait for SEONGHYEON CORTIS to dazzle the world with his EOMRADIANT and EOMSEANTER power at MAMA tonight.",
+        "order": 165,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_166",
+        "text": "The entire MAMA arena is about to feel the full force of SEONGHYEON CORTIS on the collab stage! His EOMSEANTER artistry and EOMRADIANT aura are guaranteed to create pure magic from start to finish.",
+        "order": 166,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_167",
+        "text": "Nobody else in music brings such a captivating blend of poise and fire like SEONGHYEON CORTIS! Ready for his EOMRADIANT presence and EOMSEANTER skill to steal the entire MAMA show during this collab.",
+        "order": 167,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_168",
+        "text": "Pure star quality radiates from every pore whenever SEONGHYEON CORTIS performs live on stage! His EOMSEANTER mastery and EOMRADIANT energy will make tonight's MAMA collaboration utterly unforgettable.",
+        "order": 168,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_169",
+        "text": "We have been counting down every single day until SEONGHYEON CORTIS takes the MAMA collab stage! Watch his EOMRADIANT spirit and EOMSEANTER talent shine brighter than every spotlight in the arena.",
+        "order": 169,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_170",
+        "text": "Every single note sung and every step taken by SEONGHYEON CORTIS exudes pure EOMSEANTER perfection! So thrilled to see his EOMRADIANT aura light up tonight's grand collaboration performance at MAMA.",
+        "order": 170,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_171",
+        "text": "Get ready to witness true artistry in its absolute finest form when SEONGHYEON CORTIS appears! His EOMRADIANT star power and EOMSEANTER finesse are about to turn this MAMA collab into pure history.",
+        "order": 171,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_172",
+        "text": "The main spotlight always finds SEONGHYEON CORTIS because his unique aura is simply impossible to miss! Expect unmatched EOMSEANTER skill and EOMRADIANT charm to dominate tonight's MAMA collab stage.",
+        "order": 172,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_173",
+        "text": "From his commanding stage entrance to his unforgettable finale, SEONGHYEON CORTIS owns it all! His EOMRADIANT energy and EOMSEANTER artistry will make tonight's MAMA collaboration pure perfection.",
+        "order": 173,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_174",
+        "text": "There is a truly special kind of magic that only SEONGHYEON CORTIS brings to a live stage! Cannot wait to watch his EOMSEANTER brilliance and EOMRADIANT glow captivate everyone at MAMA tonight live!",
+        "order": 174,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_175",
+        "text": "Anticipating the exact second SEONGHYEON CORTIS steps out for this iconic MAMA collab stage! His EOMRADIANT presence and EOMSEANTER dedication always raise the bar for every single live performer.",
+        "order": 175,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_176",
+        "text": "With EOMRADIANT beauty and EOMSEANTER talent that truly knows no limits, SEONGHYEON CORTIS shines! Tonight's MAMA collaboration stage is going to prove once again why he commands every spotlight.",
+        "order": 176,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_177",
+        "text": "Every single beat drops harder and every moment feels grander with SEONGHYEON CORTIS on stage! Ready for his EOMSEANTER precision and EOMRADIANT aura to leave the MAMA audience completely breathless.",
+        "order": 177,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_178",
+        "text": "He turns high-pressure live stages into effortless displays of pure musical genius! So excited to watch SEONGHYEON CORTIS bring his EOMRADIANT charm and EOMSEANTER skill to tonight's MAMA collab.",
+        "order": 178,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_179",
+        "text": "The whole fandom is buzzing with immense pride as we wait for SEONGHYEON CORTIS at MAMA tonight! His EOMSEANTER mastery and EOMRADIANT energy are set to make this collaboration an all-time favorite.",
+        "order": 179,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_180",
+        "text": "Nothing in the world compares to the electrifying aura of SEONGHYEON CORTIS under the MAMA spotlights! Watch his EOMRADIANT spirit and EOMSEANTER artistry mesmerize fans watching from every corner.",
+        "order": 180,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_181",
+        "text": "A true born performer through and through, SEONGHYEON CORTIS always delivers far beyond expectations! His EOMSEANTER talent and EOMRADIANT presence will make tonight's MAMA collab truly legendary.",
+        "order": 181,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_182",
+        "text": "We are counting every single second until SEONGHYEON CORTIS lights up the grand MAMA collab stage! Expect pure EOMRADIANT brilliance and EOMSEANTER charisma that leaves everyone in complete awe.",
+        "order": 182,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_183",
+        "text": "When raw talent, hard work, and charisma unite, you get SEONGHYEON CORTIS owning the entire night! Cannot wait to see his EOMSEANTER skill and EOMRADIANT aura shine brightest in tonight's MAMA collab.",
+        "order": 183,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_184",
+        "text": "The prestigious MAMA stage deserves a performer of rare caliber like SEONGHYEON CORTIS! His EOMRADIANT glow and EOMSEANTER precision are ready to turn tonight's special collaboration into pure art.",
+        "order": 184,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_185",
+        "text": "Every single camera lens in the arena will be chasing SEONGHYEON CORTIS the moment he appears! His EOMSEANTER versatility and EOMRADIANT charm make him the undisputed star of tonight's MAMA collab.",
+        "order": 185,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_186",
+        "text": "So endlessly ready to witness SEONGHYEON CORTIS captivate millions with his extraordinary stage gifts! His EOMRADIANT presence and EOMSEANTER artistry will make tonight's MAMA collaboration iconic.",
+        "order": 186,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_187",
+        "text": "From his deeply expressive gaze to his powerful stage command, SEONGHYEON CORTIS never misses! Watch his EOMSEANTER brilliance and EOMRADIANT energy take over tonight's MAMA collaboration stage.",
+        "order": 187,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_188",
+        "text": "True charisma simply cannot be taught, and SEONGHYEON CORTIS radiates it effortlessly on every stage! Ready for his EOMRADIANT aura and EOMSEANTER mastery to shine through in tonight's MAMA collab.",
+        "order": 188,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_189",
+        "text": "Tonight's big MAMA collaboration is guaranteed to be unforgettable with SEONGHYEON CORTIS leading the way! His EOMSEANTER passion and EOMRADIANT glow always create pure magic under the lights.",
+        "order": 189,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_190",
+        "text": "Expect loud cheers, chills, and pure admiration when SEONGHYEON CORTIS takes the grand MAMA stage! His EOMRADIANT star quality and EOMSEANTER talent are about to deliver a collaboration for the ages.",
+        "order": 190,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_191",
+        "text": "He brings unmatched elegance and explosive energy to every single live performance on stage! Cannot wait for SEONGHYEON CORTIS to showcase his EOMSEANTER skill and EOMRADIANT aura at MAMA tonight.",
+        "order": 191,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_192",
+        "text": "The anticipation is completely sky-high as we await SEONGHYEON CORTIS for his special MAMA collab! His EOMRADIANT presence and EOMSEANTER precision always turn live stages into timeless masterpieces.",
+        "order": 192,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_193",
+        "text": "Nobody else in music can command an arena with just a single glance like SEONGHYEON CORTIS! Paired with his EOMSEANTER artistry and EOMRADIANT glow, tonight's MAMA collaboration will be pure fire.",
+        "order": 193,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_194",
+        "text": "We are ready to celebrate the boundless talent of SEONGHYEON CORTIS on the big MAMA stage tonight! His EOMRADIANT charm and EOMSEANTER finesse are set to steal every heart in the entire venue.",
+        "order": 194,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_195",
+        "text": "Every live performance by SEONGHYEON CORTIS leaves a lasting impression long after the music ends! Watch his EOMSEANTER power and EOMRADIANT aura illuminate tonight's grand MAMA collaboration.",
+        "order": 195,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_196",
+        "text": "Lighting up the entire MAMA stage with EOMRADIANT grace and EOMSEANTER mastery, SEONGHYEON CORTIS is ready! Tonight's collaboration will show the whole world what true stage royalty looks like.",
+        "order": 196,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_197",
+        "text": "The excitement is completely unstoppable as SEONGHYEON CORTIS prepares to take over this MAMA collab! His EOMSEANTER brilliance and EOMRADIANT energy are guaranteed to make tonight totally iconic.",
+        "order": 197,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_198",
+        "text": "Watch very closely as SEONGHYEON CORTIS turns every single beat into pure magic on the MAMA stage! His EOMRADIANT aura and EOMSEANTER talent will make this special collaboration unforgettable.",
+        "order": 198,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_199",
+        "text": "A bright shining beacon of artistry and charisma, SEONGHYEON CORTIS is ready for his MAMA collab! Expect breathtaking EOMSEANTER skill and an EOMRADIANT presence that rules the entire evening.",
+        "order": 199,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_200",
+        "text": "Every single moment waiting for SEONGHYEON CORTIS to appear at MAMA builds even more excitement! His EOMRADIANT glow and EOMSEANTER artistry are about to deliver pure perfection on the collab stage.",
+        "order": 200,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_201",
+        "text": "Every single spotlight at MAMA is practically begging to shine on SEONGHYEON CORTIS tonight! His EOMRADIANT presence and EOMSEANTER artistry are set to turn this collab into pure stage royalty live.",
+        "order": 201,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_202",
+        "text": "The entire music industry knows SEONGHYEON CORTIS never holds back on a live stage! Watch his EOMSEANTER precision and EOMRADIANT aura captivate millions during tonight's special MAMA collab.",
+        "order": 202,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_203",
+        "text": "We are counting down every single breath until SEONGHYEON CORTIS steps out at MAMA tonight! His EOMRADIANT charm and EOMSEANTER skill guarantee a collaboration performance we will replay forever.",
+        "order": 203,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_204",
+        "text": "True artistry speaks loudest under the brightest lights, and SEONGHYEON CORTIS proves it! Expect breathtaking EOMSEANTER mastery and an EOMRADIANT glow to completely dominate tonight's MAMA collab.",
+        "order": 204,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_205",
+        "text": "Get ready for pure goosebumps the instant SEONGHYEON CORTIS appears on the MAMA stage! That signature EOMRADIANT energy paired with unmatched EOMSEANTER talent will leave the arena breathless.",
+        "order": 205,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_206",
+        "text": "All eyes around the world are turning toward MAMA tonight just to see SEONGHYEON CORTIS! His EOMSEANTER musicality and EOMRADIANT aura always turn live collaborations into timeless masterpieces.",
+        "order": 206,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_207",
+        "text": "When SEONGHYEON CORTIS takes center stage, every beat hits with unforgettable intensity! Cannot wait to witness his EOMRADIANT brilliance and EOMSEANTER finesse shine brightest in tonight's collab.",
+        "order": 207,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_208",
+        "text": "He was born to command massive arenas and leave audiences completely spellbound! Watching SEONGHYEON CORTIS bring his EOMSEANTER passion and EOMRADIANT spirit to MAMA tonight will be pure magic.",
+        "order": 208,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_209",
+        "text": "With an EOMRADIANT star quality that outshines every spotlight in the venue, SEONGHYEON CORTIS is ready! His EOMSEANTER artistry is about to make tonight's MAMA collaboration utterly legendary.",
+        "order": 209,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_210",
+        "text": "Every single movement from SEONGHYEON CORTIS radiates effortless grace and fierce power! Expect dazzling EOMSEANTER technique and an EOMRADIANT presence that rules tonight's MAMA collab stage.",
+        "order": 210,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_211",
+        "text": "So endlessly thrilled to watch SEONGHYEON CORTIS elevate this star-studded MAMA lineup! His EOMRADIANT glow and EOMSEANTER dedication always bring out the absolute magic in every live stage.",
+        "order": 211,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_212",
+        "text": "You can feel the excitement surging across the entire globe ahead of SEONGHYEON CORTIS at MAMA! His EOMSEANTER charm and EOMRADIANT energy are guaranteed to make him the standout star tonight.",
+        "order": 212,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_213",
+        "text": "Nobody owns a live stage with more poise, soul, and raw charisma than SEONGHYEON CORTIS! Ready to cheer our hearts out as his EOMRADIANT aura and EOMSEANTER talent conquer tonight's MAMA collab.",
+        "order": 213,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_214",
+        "text": "From his captivating stage presence to his razor-sharp execution, SEONGHYEON CORTIS is unmatched! His EOMSEANTER brilliance and EOMRADIANT confidence will make tonight's MAMA collab unforgettable.",
+        "order": 214,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_215",
+        "text": "The prestigious MAMA stage is about to witness pure magic when SEONGHYEON CORTIS steps forward! With EOMRADIANT spirit and EOMSEANTER skill, his collaboration tonight will leave everyone in awe.",
+        "order": 215,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_216",
+        "text": "Every single fan knows SEONGHYEON CORTIS turns big nights into historic cultural moments! Cannot wait for his EOMSEANTER charisma and EOMRADIANT glow to illuminate tonight's grand MAMA collab.",
+        "order": 216,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_217",
+        "text": "Brace yourselves for pure perfection the second SEONGHYEON CORTIS grabs the mic at MAMA! His EOMRADIANT presence and EOMSEANTER mastery are the ultimate recipe for an iconic collaboration stage.",
+        "order": 217,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_218",
+        "text": "There is something truly magnetic about the way SEONGHYEON CORTIS commands every camera lens! Watch his EOMSEANTER artistry and EOMRADIANT aura shine brighter than ever in tonight's MAMA collab.",
+        "order": 218,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_219",
+        "text": "Counting down every single second with pure joy until SEONGHYEON CORTIS unveils this epic collab! His EOMRADIANT charm and EOMSEANTER precision always set the highest standard on stage tonight.",
+        "order": 219,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_220",
+        "text": "Whenever SEONGHYEON CORTIS steps under the spotlights, the entire atmosphere transforms! Ready to witness his EOMSEANTER talent and EOMRADIANT energy dazzle everyone at MAMA during this collab.",
+        "order": 220,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_221",
+        "text": "Undeniable stage royalty looks effortless when SEONGHYEON CORTIS takes center stage tonight! His EOMRADIANT glow and EOMSEANTER versatility are about to make this MAMA collaboration legendary.",
+        "order": 221,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_222",
+        "text": "Our hearts are racing super fast waiting for SEONGHYEON CORTIS to appear on the MAMA stage! Expect unmatched EOMSEANTER power and an EOMRADIANT aura that steals the spotlight in this epic collab.",
+        "order": 222,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_223",
+        "text": "He brings extraordinary depth, rhythm, and star power to every single live performance! So excited to see SEONGHYEON CORTIS light up tonight's MAMA collab with his EOMRADIANT and EOMSEANTER gifts.",
+        "order": 223,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_224",
+        "text": "This special MAMA collaboration was tailor-made for SEONGHYEON CORTIS to flex his range! His EOMSEANTER skill and EOMRADIANT presence will effortlessly captivate millions watching worldwide.",
+        "order": 224,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_225",
+        "text": "The massive hype surrounding MAMA tonight belongs completely to SEONGHYEON CORTIS! With EOMRADIANT charisma and EOMSEANTER artistry, he is ready to deliver the standout performance of the night.",
+        "order": 225,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_226",
+        "text": "From the very first note to the final pose, SEONGHYEON CORTIS knows how to mesmerize crowds! His EOMSEANTER dedication and EOMRADIANT charm will make tonight's MAMA collaboration pure perfection.",
+        "order": 226,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_227",
+        "text": "Nothing beats the sheer adrenaline of watching SEONGHYEON CORTIS conquer a grand arena! Watch his EOMRADIANT spirit and EOMSEANTER talent shine brilliantly throughout tonight's MAMA collaboration.",
+        "order": 227,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_228",
+        "text": "With EOMSEANTER mastery in every single step and an EOMRADIANT aura that stops time, SEONGHYEON CORTIS is ready! Tonight's MAMA collaboration stage belongs wholly to his extraordinary artistry.",
+        "order": 228,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_229",
+        "text": "All the bright lights at MAMA are waiting to crown SEONGHYEON CORTIS the king of the night! His EOMRADIANT presence and EOMSEANTER musicality will turn this collaboration into pure triumph.",
+        "order": 229,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_230",
+        "text": "We have been eagerly awaiting the day SEONGHYEON CORTIS graces a collab stage like this! His EOMSEANTER brilliance and EOMRADIANT energy are guaranteed to leave the entire arena speechless.",
+        "order": 230,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_231",
+        "text": "Every time SEONGHYEON CORTIS performs live, he reminds the world what true excellence looks like! Ready for his EOMRADIANT glow and EOMSEANTER finesse to dominate tonight's MAMA collaboration.",
+        "order": 231,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_232",
+        "text": "Rare musicality meets unstoppable star power whenever SEONGHYEON CORTIS takes the mic! Cannot wait to experience his EOMSEANTER talent and EOMRADIANT aura during tonight's special MAMA collab.",
+        "order": 232,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_233",
+        "text": "The energy inside the arena will skyrocket the instant SEONGHYEON CORTIS makes his entrance! His EOMRADIANT charm and EOMSEANTER precision are set to make tonight's MAMA collaboration historic.",
+        "order": 233,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_234",
+        "text": "Look at how naturally SEONGHYEON CORTIS owns every single beat and camera frame on stage! His EOMSEANTER artistry and EOMRADIANT presence will make this MAMA collaboration one for the ages.",
+        "order": 234,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_235",
+        "text": "So endlessly proud to watch SEONGHYEON CORTIS shine on music's grandest award stage tonight! His EOMRADIANT spirit and EOMSEANTER skill always bring unmatched magic to every live collaboration.",
+        "order": 235,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_236",
+        "text": "When SEONGHYEON CORTIS performs live, every moment becomes an unforgettable work of art! Expect his EOMSEANTER power and EOMRADIANT glow to completely captivate the whole audience at MAMA.",
+        "order": 236,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_237",
+        "text": "That unmistakable EOMRADIANT magnetism of SEONGHYEON CORTIS pulls everyone in effortlessly! Combined with his EOMSEANTER stage mastery, tonight's MAMA collaboration performance will be pure gold.",
+        "order": 237,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_238",
+        "text": "Eagerly awaiting the exact second SEONGHYEON CORTIS steps forward for his MAMA collab stage! His EOMSEANTER dedication and EOMRADIANT aura never fail to give us chills from start to finish.",
+        "order": 238,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_239",
+        "text": "He commands every inch of the stage with breathtaking poise and unstoppable passion! Cannot wait to watch SEONGHYEON CORTIS unleash his EOMRADIANT energy and EOMSEANTER talent at MAMA tonight.",
+        "order": 239,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_240",
+        "text": "Tonight's MAMA show shines infinitely brighter with SEONGHYEON CORTIS in this collab! Watch his EOMSEANTER brilliance and EOMRADIANT charm mesmerize millions of fans tuning in around the world.",
+        "order": 240,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_241",
+        "text": "From his razor-sharp dance lines to his deeply expressive vocals, SEONGHYEON CORTIS rules! His EOMRADIANT aura and EOMSEANTER skill will make tonight's MAMA collaboration stage unforgettable.",
+        "order": 241,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_242",
+        "text": "The countdown to watch SEONGHYEON CORTIS at MAMA is almost over and excitement is peaking! Expect dazzling EOMSEANTER artistry and an EOMRADIANT presence that steals the show from start to end.",
+        "order": 242,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_243",
+        "text": "Nobody combines fierce stage intensity and effortless elegance quite like SEONGHYEON CORTIS! Ready for his EOMRADIANT glow and EOMSEANTER mastery to elevate tonight's MAMA collab to new heights.",
+        "order": 243,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_244",
+        "text": "A true born artist turns every live stage into pure magic, and SEONGHYEON CORTIS proves it! His EOMSEANTER passion and EOMRADIANT charisma are ready to dazzle everyone during tonight's MAMA collab.",
+        "order": 244,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_245",
+        "text": "We are ready to cheer louder than ever when SEONGHYEON CORTIS appears on the MAMA stage! His EOMRADIANT energy and EOMSEANTER talent always turn live collaborations into legendary memories.",
+        "order": 245,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_246",
+        "text": "With an EOMSEANTER command of the music that leaves zero doubt, SEONGHYEON CORTIS is ready! His EOMRADIANT presence is going to shine brightest of all on tonight's spectacular MAMA collab stage.",
+        "order": 246,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_247",
+        "text": "Every single glance from SEONGHYEON CORTIS radiates pure confidence and rare star quality! So excited to see his EOMRADIANT aura and EOMSEANTER precision light up tonight's MAMA collaboration.",
+        "order": 247,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_248",
+        "text": "This MAMA collaboration is the ultimate grand stage for the limitless gifts of SEONGHYEON CORTIS! Watch his EOMSEANTER versatility and EOMRADIANT charm leave every viewer completely awestruck.",
+        "order": 248,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_249",
+        "text": "Holding our breath in pure anticipation as we wait for SEONGHYEON CORTIS at MAMA tonight! His EOMRADIANT spirit and EOMSEANTER artistry are guaranteed to deliver an iconic collaboration stage.",
+        "order": 249,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_250",
+        "text": "Whenever SEONGHYEON CORTIS takes center stage, the entire world stops to watch in admiration! Ready for his EOMSEANTER skill and EOMRADIANT glow to conquer tonight's special MAMA collaboration.",
+        "order": 250,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_251",
+        "text": "His EOMRADIANT presence alone commands total attention the instant he steps into the light! Cannot wait to watch SEONGHYEON CORTIS showcase his phenomenal EOMSEANTER talent in tonight's collab.",
+        "order": 251,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_252",
+        "text": "Pure musical excellence is guaranteed whenever SEONGHYEON CORTIS steps onto a live stage! His EOMSEANTER finesse and EOMRADIANT energy will make tonight's MAMA collaboration an instant classic.",
+        "order": 252,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_253",
+        "text": "The arena lights were practically designed to reflect the EOMRADIANT glow of SEONGHYEON CORTIS! Paired with his EOMSEANTER artistry, tonight's MAMA collab performance is bound to be iconic.",
+        "order": 253,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_254",
+        "text": "Counting every single second until SEONGHYEON CORTIS graces the grand MAMA collab stage! His EOMSEANTER dedication and EOMRADIANT charm always turn big nights into unforgettable milestones.",
+        "order": 254,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_255",
+        "text": "You simply cannot teach the kind of EOMRADIANT charisma that SEONGHYEON CORTIS radiates! Combined with his EOMSEANTER mastery, this MAMA collaboration stage will be remembered for decades.",
+        "order": 255,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_256",
+        "text": "All eyes across the music industry are locked onto SEONGHYEON CORTIS ahead of his MAMA collab! Expect breathtaking EOMSEANTER precision and an EOMRADIANT aura that lights up the entire venue.",
+        "order": 256,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_257",
+        "text": "He steps onto the stage and immediately turns every rhythm into pure stage electricity! So hyped to watch SEONGHYEON CORTIS bring his EOMRADIANT presence and EOMSEANTER talent to MAMA tonight.",
+        "order": 257,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_258",
+        "text": "From the very first teaser to tonight's live broadcast, SEONGHYEON CORTIS radiates perfection! His EOMSEANTER artistry and EOMRADIANT glow are ready to rule tonight's MAMA collaboration stage.",
+        "order": 258,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_259",
+        "text": "There is simply no matching the unstoppable aura of SEONGHYEON CORTIS on a massive stage! Ready to witness his EOMRADIANT energy and EOMSEANTER skill shine brilliantly in tonight's MAMA collab.",
+        "order": 259,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_260",
+        "text": "Every live performance by SEONGHYEON CORTIS proves he was destined for global greatness! His EOMSEANTER charisma and EOMRADIANT aura will make tonight's MAMA collab stage an absolute triumph.",
+        "order": 260,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_261",
+        "text": "The pure thrill of waiting for SEONGHYEON CORTIS to appear at MAMA is completely unmatched! With EOMRADIANT confidence and EOMSEANTER talent, he is ready to own every beat of this collaboration.",
+        "order": 261,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_262",
+        "text": "Watch closely how SEONGHYEON CORTIS effortlessly captivates every single soul in the arena! His EOMSEANTER musicality and EOMRADIANT presence are set to make this MAMA collaboration legendary.",
+        "order": 262,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_263",
+        "text": "So endlessly thrilled to see SEONGHYEON CORTIS command the spotlight in this dream collab! His EOMRADIANT charm and EOMSEANTER precision always deliver an unforgettable show on the MAMA stage.",
+        "order": 263,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_264",
+        "text": "When SEONGHYEON CORTIS takes center stage tonight, every other moment fades away instantly! Expect pure EOMSEANTER brilliance and an EOMRADIANT glow that mesmerizes everyone watching MAMA.",
+        "order": 264,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_265",
+        "text": "His unmatched dedication to his artistry shines through in every single movement and note! Cannot wait for SEONGHYEON CORTIS to dazzle the world with his EOMRADIANT and EOMSEANTER power tonight.",
+        "order": 265,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_266",
+        "text": "The entire MAMA venue is about to feel the electrifying force of SEONGHYEON CORTIS tonight! His EOMSEANTER artistry and EOMRADIANT aura are guaranteed to create pure magic on the collab stage.",
+        "order": 266,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_267",
+        "text": "Nobody else in music delivers such a mesmerizing blend of grace and power like SEONGHYEON CORTIS! Ready for his EOMRADIANT presence and EOMSEANTER skill to steal the show in this MAMA collab.",
+        "order": 267,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_268",
+        "text": "Pure star magnetism radiates effortlessly whenever SEONGHYEON CORTIS steps under the lights! His EOMSEANTER mastery and EOMRADIANT energy will make tonight's MAMA collaboration unforgettable.",
+        "order": 268,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_269",
+        "text": "We have been counting down every single hour until SEONGHYEON CORTIS takes the MAMA collab stage! Watch his EOMRADIANT spirit and EOMSEANTER talent shine brighter than every spotlight tonight!",
+        "order": 269,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_270",
+        "text": "Every single note and every sharp step by SEONGHYEON CORTIS exudes pure EOMSEANTER perfection! So excited to see his EOMRADIANT aura illuminate tonight's grand collaboration performance at MAMA.",
+        "order": 270,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_271",
+        "text": "Get ready to witness pure stage brilliance in its finest form when SEONGHYEON CORTIS appears! His EOMRADIANT star power and EOMSEANTER finesse are about to turn this MAMA collab into history.",
+        "order": 271,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_272",
+        "text": "The center spotlight always belongs to SEONGHYEON CORTIS because his presence is undeniable! Expect unmatched EOMSEANTER skill and EOMRADIANT charm to dominate tonight's MAMA collab stage.",
+        "order": 272,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_273",
+        "text": "From his powerful entrance to his breathtaking final pose, SEONGHYEON CORTIS owns the night! His EOMRADIANT energy and EOMSEANTER artistry will make tonight's MAMA collaboration perfection.",
+        "order": 273,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_274",
+        "text": "There is a rare, captivating magic that only SEONGHYEON CORTIS brings to a live performance! Cannot wait to watch his EOMSEANTER brilliance and EOMRADIANT glow amaze everyone at MAMA tonight.",
+        "order": 274,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_275",
+        "text": "Anticipating the exact moment SEONGHYEON CORTIS steps out for this iconic MAMA collab stage! His EOMRADIANT presence and EOMSEANTER dedication always set a brand-new standard for excellence.",
+        "order": 275,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_276",
+        "text": "With EOMRADIANT beauty and EOMSEANTER talent that truly knows no limits, SEONGHYEON CORTIS rules! Tonight's MAMA collaboration stage will prove once again why he commands every single spotlight.",
+        "order": 276,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_277",
+        "text": "Every beat hits harder and every second feels more electric with SEONGHYEON CORTIS on stage! Ready for his EOMSEANTER precision and EOMRADIANT aura to leave the MAMA crowd completely breathless.",
+        "order": 277,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_278",
+        "text": "He turns massive award show stages into effortless displays of pure musical mastery! So excited to watch SEONGHYEON CORTIS bring his EOMRADIANT charm and EOMSEANTER skill to tonight's MAMA collab.",
+        "order": 278,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_279",
+        "text": "The entire fandom is bursting with pride as we wait for SEONGHYEON CORTIS at MAMA tonight! His EOMSEANTER artistry and EOMRADIANT energy are set to make this collaboration an all-time classic.",
+        "order": 279,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_280",
+        "text": "Nothing in the world compares to the dazzling aura of SEONGHYEON CORTIS under the MAMA lights! Watch his EOMRADIANT spirit and EOMSEANTER talent mesmerize fans watching from around the globe.",
+        "order": 280,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_281",
+        "text": "A true born performer in every sense, SEONGHYEON CORTIS always delivers beyond our wildest dreams! His EOMSEANTER skill and EOMRADIANT presence will make tonight's MAMA collab truly iconic.",
+        "order": 281,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_282",
+        "text": "We are counting every single heartbeat until SEONGHYEON CORTIS lights up the MAMA collab stage! Expect pure EOMRADIANT brilliance and EOMSEANTER charisma that leaves everyone in complete awe.",
+        "order": 282,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_283",
+        "text": "When passion, discipline, and natural charisma unite, you get SEONGHYEON CORTIS owning the stage! Cannot wait to see his EOMSEANTER skill and EOMRADIANT aura shine brightest at MAMA tonight.",
+        "order": 283,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_284",
+        "text": "The prestigious MAMA stage deserves an artist of rare brilliance like SEONGHYEON CORTIS! His EOMRADIANT glow and EOMSEANTER precision are ready to turn tonight's special collab into pure art.",
+        "order": 284,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_285",
+        "text": "Every camera in the MAMA arena will lock onto SEONGHYEON CORTIS the second he steps out! His EOMSEANTER versatility and EOMRADIANT charm make him the undisputed star of tonight's collaboration.",
+        "order": 285,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_286",
+        "text": "So endlessly ready to watch SEONGHYEON CORTIS captivate the world with his extraordinary gifts! His EOMRADIANT presence and EOMSEANTER artistry will make tonight's MAMA collaboration historic.",
+        "order": 286,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_287",
+        "text": "From his intense gaze to his effortless command of the crowd, SEONGHYEON CORTIS never misses! Watch his EOMSEANTER brilliance and EOMRADIANT energy take over tonight's MAMA collaboration.",
+        "order": 287,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_288",
+        "text": "True star quality simply cannot be imitated, and SEONGHYEON CORTIS radiates it effortlessly! Ready for his EOMRADIANT aura and EOMSEANTER mastery to shine through in tonight's MAMA collab.",
+        "order": 288,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_289",
+        "text": "Tonight's MAMA collaboration is destined to be legendary with SEONGHYEON CORTIS leading the charge! His EOMSEANTER passion and EOMRADIANT glow always create pure magic under the stage lights.",
+        "order": 289,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_290",
+        "text": "Expect roaring cheers, chills, and pure admiration when SEONGHYEON CORTIS takes the MAMA stage! His EOMRADIANT star quality and EOMSEANTER talent are about to deliver a performance for the ages.",
+        "order": 290,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_291",
+        "text": "He brings unmatched sophistication and explosive energy to every live performance on stage! Cannot wait for SEONGHYEON CORTIS to showcase his EOMSEANTER skill and EOMRADIANT aura at MAMA tonight.",
+        "order": 291,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_292",
+        "text": "The excitement is completely off the charts as we await SEONGHYEON CORTIS for his MAMA collab! His EOMRADIANT presence and EOMSEANTER precision always turn live stages into pure masterpieces.",
+        "order": 292,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_293",
+        "text": "Nobody else in music commands an arena with such effortless grace like SEONGHYEON CORTIS! Paired with his EOMSEANTER artistry and EOMRADIANT glow, tonight's MAMA collaboration will be pure fire.",
+        "order": 293,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_294",
+        "text": "We are ready to celebrate the extraordinary talent of SEONGHYEON CORTIS on the MAMA stage tonight! His EOMRADIANT charm and EOMSEANTER finesse are set to win every heart in the entire arena.",
+        "order": 294,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_295",
+        "text": "Every live performance by SEONGHYEON CORTIS echoes in our minds long after the final note! Watch his EOMSEANTER power and EOMRADIANT aura illuminate tonight's grand MAMA collaboration stage.",
+        "order": 295,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_296",
+        "text": "Lighting up the grand MAMA stage with EOMRADIANT poise and EOMSEANTER mastery, SEONGHYEON CORTIS is ready! Tonight's collaboration will show the entire world what true stage royalty looks like.",
+        "order": 296,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_297",
+        "text": "The anticipation is unstoppable as SEONGHYEON CORTIS prepares to conquer this MAMA collab! His EOMSEANTER brilliance and EOMRADIANT energy are guaranteed to make tonight utterly unforgettable.",
+        "order": 297,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_298",
+        "text": "Watch closely as SEONGHYEON CORTIS transforms every beat into pure art on the MAMA stage! His EOMRADIANT aura and EOMSEANTER talent will make this special collaboration an instant masterpiece.",
+        "order": 298,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_299",
+        "text": "A radiant force of pure artistry and charisma, SEONGHYEON CORTIS is ready for his MAMA collab! Expect breathtaking EOMSEANTER skill and an EOMRADIANT presence that rules the entire night live!",
+        "order": 299,
+        "status": "approved",
+        "language": "en"
+      },
+      {
+        "id": "mama_300",
+        "text": "Every single second waiting for SEONGHYEON CORTIS to appear at MAMA builds even greater hype! His EOMRADIANT glow and EOMSEANTER artistry are about to deliver pure perfection on the collab stage.",
+        "order": 300,
+        "status": "approved",
+        "language": "en"
+      }
+    ],
+    "captions": [
+      {
+        "id": "1",
+        "sourceId": 1,
+        "text": "Eom Seonghyeon, every role you play feels like a new world. Proud to support you!",
+        "language": "en",
+        "category": "Ủng hộ",
+        "status": "approved"
+      },
+      {
+        "id": "2",
+        "sourceId": 2,
+        "text": "Thank you, Eom Seonghyeon, for the warmth and heart you bring to every scene.",
+        "language": "en",
+        "category": "Cảm ơn",
+        "status": "approved"
+      },
+      {
+        "id": "3",
+        "sourceId": 3,
+        "text": "Congratulations, Eom Seonghyeon! Your hard work shines brighter every day.",
+        "language": "en",
+        "category": "Chúc mừng",
+        "status": "approved"
+      },
+      {
+        "id": "4",
+        "sourceId": 4,
+        "text": "엄성현, 맡는 역마다 새로운 세계를 보여줘서 고마워요. 항상 응원해요!",
+        "language": "ko",
+        "category": "Ủng hộ",
+        "status": "approved"
+      },
+      {
+        "id": "5",
+        "sourceId": 5,
+        "text": "모든 장면에 따뜻한 마음을 담아줘서 고마워요, 엄성현.",
+        "language": "ko",
+        "category": "Cảm ơn",
+        "status": "approved"
+      },
+      {
+        "id": "6",
+        "sourceId": 6,
+        "text": "축하해요, 엄성현! 당신의 노력이 날마다 더 빛나요.",
+        "language": "ko",
+        "category": "Chúc mừng",
+        "status": "approved"
+      }
+    ],
+    "comment_platforms": [
+      {
+        "id": "ig",
+        "title": "MASS IG",
+        "description": "Ủng hộ Seonghyeon bằng bình luận trên Instagram.",
+        "url": "https://www.instagram.com/p/DfQw1t_S0oB/",
+        "linkLabel": "MỞ BÀI INSTAGRAM ↗",
+        "status": "published"
+      },
+      {
+        "id": "x",
+        "title": "MASS X",
+        "description": "Ủng hộ Seonghyeon bằng bình luận trên X.",
+        "url": "",
+        "linkLabel": "",
+        "status": "published"
+      },
+      {
+        "id": "ytb",
+        "title": "MASS YTB",
+        "description": "Ủng hộ Seonghyeon bằng bình luận trên YouTube.",
+        "url": "https://www.youtube.com/watch?v=WEwdaxKOAuY",
+        "linkLabel": "MỞ VIDEO YOUTUBE ↗",
+        "status": "published"
+      }
+    ],
+    "comment_templates": [
+      {
+        "id": "ig_1",
+        "platform": "ig",
+        "text": "Seonghyeon, your smile lights up every frame. Cheering for you always! 🧡",
+        "order": 0,
+        "status": "published"
+      },
+      {
+        "id": "ig_2",
+        "platform": "ig",
+        "text": "엄성현 화이팅! 항상 응원하고 있어요 🧡",
+        "order": 1,
+        "status": "published"
+      },
+      {
+        "id": "ig_3",
+        "platform": "ig",
+        "text": "Every role you take feels so sincere. Proud of you, Seonghyeon!",
+        "order": 2,
+        "status": "published"
+      },
+      {
+        "id": "ig_4",
+        "platform": "ig",
+        "text": "Sending love from Vietnam to Eom Seonghyeon today 🇻🇳🧡",
+        "order": 3,
+        "status": "published"
+      },
+      {
+        "id": "ig_5",
+        "platform": "ig",
+        "text": "Thank you for the warmth you give us, Seonghyeon. We are here for you!",
+        "order": 4,
+        "status": "published"
+      },
+      {
+        "id": "x_1",
+        "platform": "x",
+        "text": "Eom Seonghyeon is a talent worth watching. Keep shining! 🧡 #EomSeonghyeon",
+        "order": 0,
+        "status": "published"
+      },
+      {
+        "id": "x_2",
+        "platform": "x",
+        "text": "엄성현 배우님 오늘도 응원합니다! #엄성현",
+        "order": 1,
+        "status": "published"
+      },
+      {
+        "id": "x_3",
+        "platform": "x",
+        "text": "Some actors perform, Seonghyeon makes you feel. Supporting him always. #EomSeonghyeon",
+        "order": 2,
+        "status": "published"
+      },
+      {
+        "id": "x_4",
+        "platform": "x",
+        "text": "Orange waves of love for Seonghyeon from Vietnam! #EomSeonghyeon #엄성현",
+        "order": 3,
+        "status": "published"
+      },
+      {
+        "id": "x_5",
+        "platform": "x",
+        "text": "Can't wait for what's next from Seonghyeon. We believe in you! #EomSeonghyeon",
+        "order": 4,
+        "status": "published"
+      },
+      {
+        "id": "ytb_1",
+        "platform": "ytb",
+        "text": "Seonghyeon, thank you for always giving your best. We are so proud of you! 🧡",
+        "order": 0,
+        "status": "published"
+      },
+      {
+        "id": "ytb_2",
+        "platform": "ytb",
+        "text": "엄성현 배우님, 늘 따뜻한 연기 감사합니다. 앞으로도 계속 응원할게요!",
+        "order": 1,
+        "status": "published"
+      },
+      {
+        "id": "ytb_3",
+        "platform": "ytb",
+        "text": "Watching this again and I still get goosebumps. Seonghyeon's expressions say so much without a single word. His growth as an actor is clear in every project, and we will be right here supporting him through every step of the journey. Fighting, Seonghyeon! 🧡",
+        "order": 2,
+        "status": "published"
+      },
+      {
+        "id": "ytb_4",
+        "platform": "ytb",
+        "text": "Sending lots of love from Vietnam. Please stay healthy and keep shining, Eom Seonghyeon!",
+        "order": 3,
+        "status": "published"
+      }
+    ],
+    "missions": [
+      {
+        "id": "m1",
+        "title": "Copy 3 caption hôm nay",
+        "target": 3,
+        "xpReward": 20,
+        "action": "copy",
+        "period": "daily",
+        "status": "published"
+      },
+      {
+        "id": "m2",
+        "title": "Copy 1 caption tiếng Hàn",
+        "target": 1,
+        "xpReward": 10,
+        "action": "ko",
+        "period": "daily",
+        "status": "published"
+      },
+      {
+        "id": "m3",
+        "title": "Lưu 1 caption yêu thích",
+        "target": 1,
+        "xpReward": 10,
+        "action": "fav",
+        "period": "daily",
+        "status": "published"
+      },
+      {
+        "id": "w1",
+        "title": "Tuần này: copy 10 caption",
+        "target": 10,
+        "xpReward": 60,
+        "action": "copy",
+        "period": "weekly",
+        "status": "published"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "1",
+        "text": "Chào mừng đến TRẠM BRB 2.0! Hãy đăng cách nhau ~10 phút nhé 🧡",
+        "order": 0,
+        "status": "published"
+      }
+    ]
+  }
+}

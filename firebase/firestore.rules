@@ -1,44 +1,172 @@
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
-    // Set to the UID shown on WebUI/admin/import.html after Google login.
-    // This is a TEMPLATE and must be deployed from Firebase Console Rules.
-    // Until replaced, all browser reads/writes are denied.
     function isImportAdmin() {
       return request.auth != null &&
-        request.auth.uid == "REPLACE_WITH_GOOGLE_ADMIN_UID";
+        request.auth.token.firebase.sign_in_provider == "password" &&
+        request.auth.token.eventAdmin == true;
     }
 
-    // Temporary restricted importer access for seven known content paths.
+    function validTextItem(publicStatus) {
+      let item = request.resource.data;
+      return item.text is string && item.text.size() > 0 && item.text.size() <= 2000
+        && item.status in ["draft", "archived", publicStatus];
+    }
+
+    function validLanguage() {
+      return request.resource.data.language in ["en", "ko"];
+    }
+
+    function validOrder() {
+      return request.resource.data.order is int && request.resource.data.order >= 0;
+    }
+
+    function archiveOnly() {
+      return request.resource.data.status == "archived"
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(["status"]);
+    }
+
     match /captions/{id} {
-      allow read, create: if isImportAdmin();
+      function validCaption() {
+        return validTextItem("approved") && validLanguage()
+          && request.resource.data.category in ["Ủng hộ", "Cảm ơn", "Chúc mừng"];
+      }
+      allow read: if isImportAdmin() || resource.data.status == "approved";
+      allow create: if isImportAdmin() && validCaption();
+      allow update: if isImportAdmin() && (archiveOnly() || (validCaption()
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(["text", "language", "category", "status"])));
+      allow delete: if false;
+    }
+    match /caption_submissions/{id} {
+      allow read: if isImportAdmin();
+      allow create: if request.auth != null
+        && request.resource.data.keys().hasOnly(["uid", "text", "language", "category", "status", "createdAt"])
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.text is string
+        && request.resource.data.text.size() > 0 && request.resource.data.text.size() <= 2000
+        && request.resource.data.language in ["en", "ko"]
+        && request.resource.data.category in ["Ủng hộ", "Cảm ơn", "Chúc mừng"]
+        && request.resource.data.status == "pending"
+        && request.resource.data.createdAt == request.time;
       allow update, delete: if false;
     }
     match /events/{id} {
-      allow read, create: if isImportAdmin();
-      allow update, delete: if false;
-    }
-    match /events/mama_2026/captions/{id} {
-      allow read, create: if isImportAdmin();
-      allow update, delete: if false;
+      function validEvent() {
+        let event = request.resource.data;
+        return event.title is string && event.title.size() > 0 && event.title.size() <= 160
+          && event.status in ["draft", "published", "archived"]
+          && event.startsAt is timestamp && event.endsAt is timestamp
+          && event.startsAt < event.endsAt
+          && event.requiredCopies is int && event.requiredCopies >= 1 && event.requiredCopies <= 1000
+          && event.xpReward is int && event.xpReward >= 0 && event.xpReward <= 100000;
+      }
+
+      allow read: if isImportAdmin() || resource.data.status == "published";
+      allow create: if isImportAdmin() && validEvent();
+      function eventData() {
+        return get(/databases/$(database)/documents/events/$(id)).data;
+      }
+
+      allow update: if isImportAdmin() && (archiveOnly() || (validEvent()
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly([
+          "title", "status", "startsAt", "endsAt", "requiredCopies", "xpReward",
+          "badge", "tagline", "hashtags", "description", "keywords", "notes"
+        ])));
+      allow delete: if false;
+
+      function eventIsActive() {
+        let event = eventData();
+        return event.status == "published"
+          && request.time >= event.startsAt && request.time < event.endsAt;
+      }
+
+      match /captions/{captionId} {
+        function validEventCaption() {
+          return validTextItem("approved") && validLanguage() && validOrder();
+        }
+        allow read: if isImportAdmin()
+          || (eventData().status == "published" && resource.data.status == "approved");
+        allow create: if isImportAdmin() && validEventCaption();
+        allow update: if isImportAdmin() && (archiveOnly() || (validEventCaption()
+          && request.resource.data.diff(resource.data).affectedKeys().hasOnly(["text", "language", "order", "status"])));
+        allow delete: if false;
+      }
+
+      match /participants/{uid} {
+        function isParticipant() {
+          return request.auth != null && request.auth.uid == uid;
+        }
+
+        function validProgress() {
+          let before = resource.data.copiedCaptionIds;
+          let after = request.resource.data.copiedCaptionIds;
+          let captionId = after[after.size() - 1];
+          return request.resource.data.diff(resource.data).affectedKeys().hasOnly(["copiedCaptionIds"])
+            && after is list && after.size() == before.size() + 1
+            && after.size() <= eventData().requiredCopies
+            && after.hasAll(before) && !before.hasAny([captionId])
+            && get(/databases/$(database)/documents/events/$(id)/captions/$(captionId)).data.status == "approved";
+        }
+
+        allow get: if isParticipant() || isImportAdmin();
+        allow list: if isImportAdmin();
+        allow create: if isParticipant() && eventIsActive()
+          && request.resource.data.keys().hasOnly(["joinedAt", "copiedCaptionIds"])
+          && request.resource.data.joinedAt == request.time
+          && request.resource.data.copiedCaptionIds == [];
+        allow update: if isParticipant() && eventIsActive() && validProgress();
+        allow delete: if false;
+      }
     }
     match /comment_platforms/{id} {
-      allow read, create: if isImportAdmin();
+      allow read: if isImportAdmin() || resource.data.status == "published";
+      allow create: if isImportAdmin();
       allow update, delete: if false;
     }
     match /comment_templates/{id} {
-      allow read, create: if isImportAdmin();
-      allow update, delete: if false;
+      function validComment() {
+        return validTextItem("published") && validOrder()
+          && request.resource.data.platform in ["ig", "x", "ytb"];
+      }
+      allow read: if isImportAdmin() || resource.data.status == "published";
+      allow create: if isImportAdmin() && validComment();
+      allow update: if isImportAdmin() && (archiveOnly() || (validComment()
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(["text", "platform", "order", "status"])));
+      allow delete: if false;
     }
     match /missions/{id} {
-      allow read, create: if isImportAdmin();
+      allow read: if isImportAdmin() || resource.data.status == "published";
+      allow create: if isImportAdmin();
       allow update, delete: if false;
     }
     match /announcements/{id} {
-      allow read, create: if isImportAdmin();
+      allow read: if isImportAdmin() || resource.data.status == "published";
+      allow create: if isImportAdmin();
       allow update, delete: if false;
     }
-    // Everything else denied, including users and user_progress.
+    match /user_profiles/{uid} {
+      function isOwner() {
+        return request.auth != null && request.auth.uid == uid;
+      }
+
+      function validProfile() {
+        let profile = request.resource.data;
+        return profile.keys().hasOnly(["revision", "data", "updatedAt"])
+          && profile.updatedAt == request.time && profile.revision is int
+          && profile.data is map
+          && profile.data.keys().hasOnly(["me", "tc", "ts", "cc", "lang", "cat", "an", "cp"])
+          && profile.data.me is map && profile.data.tc is int && profile.data.ts is int
+          && profile.data.cc is map && profile.data.lang in ["en", "ko"]
+          && profile.data.cat is string && profile.data.an is bool && profile.data.cp in ["ig", "x", "ytb"];
+      }
+
+      allow get: if isOwner();
+      allow create: if isOwner() && validProfile() && request.resource.data.revision == 1;
+      allow update: if isOwner() && validProfile()
+        && request.resource.data.revision == resource.data.revision + 1;
+      allow list, delete: if false;
+    }
+
     match /{document=**} {
       allow read, write: if false;
     }

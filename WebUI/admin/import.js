@@ -1,10 +1,11 @@
-import { auth, db, isFirebaseConfigured } from "../js/config/firebase.js";
-import { observeAuth, signInWithGoogle, signOutUser } from "../js/services/auth.service.js";
-import { doc, getDoc, writeBatch } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
+import { db, observeAdmin, signInAdmin, signOutAdmin } from "./auth.js";
+import { doc, getDoc, Timestamp, writeBatch } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
+import { refreshEvents, setEventAdmin } from "./events.js";
+import { showItems } from "./items.js";
 
 const $ = id => document.getElementById(id);
 const ALLOWED = new Set([
-  "captions", "events", "events/mama_2026/captions", "comment_platforms",
+  "captions", "events", "comment_platforms",
   "comment_templates", "missions", "announcements"
 ]);
 const MAX_BYTES = 2 * 1024 * 1024;
@@ -13,8 +14,24 @@ const PROJECT_ID = "all-for-eom-seonghyeon-651f9";
 let currentUser = null;
 let parsed = null;
 let busy = false;
+let signingIn = false;
 const log = message => { $("result").textContent = message; };
 const message = text => { $("preview-message").textContent = text; };
+
+const tabs = [...document.querySelectorAll("[data-view]")];
+function showView(view) {
+  const itemView = ["captions", "comments", "event-captions"].includes(view);
+  $("manage-events").hidden = view !== "events";
+  $("manage-import").hidden = view !== "import";
+  $("manage-items").hidden = !itemView;
+  for (const tab of tabs) tab.setAttribute("aria-pressed", String(tab.dataset.view === view));
+  showItems(itemView ? view : null);
+}
+for (const tab of tabs) {
+  tab.addEventListener("click", () => {
+    if (currentUser && tab.getAttribute("aria-pressed") !== "true") showView(tab.dataset.view);
+  });
+}
 
 function validateSeed(seed) {
   if (!seed || typeof seed !== "object" || Array.isArray(seed) || seed.schemaVersion !== 1)
@@ -24,7 +41,8 @@ function validateSeed(seed) {
   const entries = [];
   const counts = {};
   for (const [path, records] of Object.entries(seed.collections)) {
-    if (!ALLOWED.has(path)) throw Error("Collection không được hỗ trợ: " + path);
+    const eventCaptions = /^events\/[A-Za-z0-9_-]{1,100}\/captions$/.test(path);
+    if (!ALLOWED.has(path) && !eventCaptions) throw Error("Collection không được hỗ trợ: " + path);
     if (!Array.isArray(records)) throw Error("Collection phải là mảng: " + path);
     counts[path] = records.length;
     for (const record of records) {
@@ -35,6 +53,34 @@ function validateSeed(seed) {
         throw Error("Document ID không hợp lệ trong " + path);
       if (!("text" in data) && !("title" in data))
         throw Error("Document thiếu nội dung trong " + path + "/" + id);
+      if (path === "events") {
+        const { startsAt, endsAt, startDate, endDate } = data;
+        const start = Date.parse(startsAt ?? (startDate + "T00:00:00+07:00"));
+        const end = endsAt === undefined
+          ? Date.parse(endDate + "T00:00:00+07:00") + 86400000
+          : Date.parse(endsAt);
+        if (typeof data.title !== "string" || !data.title.trim() || data.title.length > 160
+          || !(start < end) || !Number.isInteger(data.requiredCopies) || data.requiredCopies < 1 || data.requiredCopies > 1000
+          || !Number.isInteger(data.xpReward) || data.xpReward < 0 || data.xpReward > 100000)
+          throw Error("Tên, thời gian, số caption mục tiêu hoặc XP không hợp lệ: " + id);
+        data.startsAt = Timestamp.fromMillis(start);
+        data.endsAt = Timestamp.fromMillis(end);
+        data.status ??= "draft";
+        if (!["draft", "published", "archived"].includes(data.status)) throw Error("Trạng thái sự kiện không hợp lệ: " + id);
+      }
+      if (eventCaptions || path === "captions" || path === "comment_templates") {
+        const comment = path === "comment_templates";
+        data.status ??= "draft";
+        if (eventCaptions) data.language ??= "en";
+        if (typeof data.text !== "string" || !data.text.trim() || data.text.length > 2000
+          || !["draft", "archived", comment ? "published" : "approved"].includes(data.status)
+          || (!comment && !["en", "ko"].includes(data.language))
+          || (path === "captions" && !["Ủng hộ", "Cảm ơn", "Chúc mừng"].includes(data.category))
+          || (comment && !["ig", "x", "ytb"].includes(data.platform))
+          || ((comment || eventCaptions) && (!Number.isInteger(data.order) || data.order < 0))) {
+          throw Error("Nội dung hoặc thông tin phân loại không hợp lệ: " + id);
+        }
+      }
       const segments = (path + "/" + id).split("/");
       if (segments.length % 2 !== 0) throw Error("Đường dẫn document không hợp lệ.");
       entries.push({ path: path + "/" + id, data });
@@ -51,27 +97,43 @@ function updateButton() {
     $("confirm-project").value.trim() !== PROJECT_ID || !$("ack").checked;
 }
 
-$("login").onclick = async () => {
-  try { await signInWithGoogle(); }
-  catch (e) { log("Đăng nhập thất bại: " + (e.code || e.message)); }
+$("admin-login").onsubmit = async event => {
+  event.preventDefault();
+  if (!db || currentUser || signingIn) return;
+  signingIn = true;
+  $("login").disabled = true;
+  const passwordInput = $("admin-password");
+  const password = passwordInput.value;
+  passwordInput.value = "";
+  try {
+    await signInAdmin($("admin-username").value, password);
+  } catch {
+    $("auth-state").textContent = "Không thể đăng nhập. Hãy kiểm tra tên tài khoản và mật khẩu.";
+  } finally {
+    signingIn = false;
+    $("login").disabled = !!currentUser;
+  }
 };
 $("logout").onclick = async () => {
-  try { await signOutUser(); } catch(e) { log("Đăng xuất thất bại: " + e.message); }
+  try { await signOutAdmin(); } catch(e) { log("Đăng xuất thất bại: " + e.message); }
 };
 $("confirm-project").addEventListener("input", updateButton);
 $("ack").addEventListener("change", updateButton);
 
-if (!isFirebaseConfigured) {
+if (!db) {
   $("auth-state").textContent = "Firebase chưa cấu hình.";
 } else {
-  $("login").disabled = false;
-  observeAuth(user => {
+  observeAdmin(user => {
+    const changed = currentUser?.uid !== user?.uid;
     currentUser = user;
+    setEventAdmin(user);
+    $("workspace").hidden = !user;
+    if (changed) showView("events");
     $("auth-state").textContent = user
-      ? "Đã đăng nhập: " + (user.email || user.displayName || "Google user")
+      ? "Đã đăng nhập quản trị: synhy"
       : "Chưa đăng nhập.";
-    $("auth-uid").textContent = user ? "UID (dùng trong Firestore Rules): " + user.uid : "";
-    $("login").disabled = !!user;
+    $("admin-login").hidden = !!user;
+    $("login").disabled = !!user || signingIn;
     $("logout").disabled = !user;
     updateButton();
   });
@@ -109,17 +171,18 @@ $("file").addEventListener("change", async event => {
 $("import").onclick = async () => {
   updateButton();
   if ($("import").disabled || !currentUser || !db) return;
+  const { entries } = parsed;
   busy = true; updateButton();
   let created = 0, skipped = 0, scanned = 0;
   try {
     log("Đang kiểm tra document đã tồn tại…");
     // Explicitly check existing documents before writing. Existing documents are never overwritten.
     const missing = [];
-    for (const item of parsed.entries) {
+    for (const item of entries) {
       const snap = await getDoc(doc(db, item.path));
       scanned++;
       if (snap.exists()) skipped++; else missing.push(item);
-      if (scanned % 30 === 0) log("Đã kiểm tra " + scanned + "/" + parsed.entries.length);
+      if (scanned % 30 === 0) log("Đã kiểm tra " + scanned + "/" + entries.length);
     }
     // Every batch is below Firestore's 500-operation limit.
     for (let offset = 0; offset < missing.length; offset += 150) {
@@ -136,4 +199,5 @@ $("import").onclick = async () => {
     log("Import dừng. Đã tạo " + created + " document. Lỗi: " +
       (e.code || e.message) + ". Nếu là permission-denied, kiểm tra Admin UID và Security Rules.");
   } finally { busy = false; updateButton(); }
+  if (created) void refreshEvents();
 };

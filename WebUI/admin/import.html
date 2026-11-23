@@ -3,42 +3,123 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Firestore JSON Import | ALL FOR EOM</title>
-<link rel="stylesheet" href="../css/style.css">
-<style>
-body{padding:18px}.import-wrap{max-width:780px;margin:0 auto}.import-wrap .card{margin:12px 0;padding:18px}
-.import-wrap input[type=file]{display:block;margin:12px 0;max-width:100%}
-.import-wrap button{margin:8px 8px 8px 0}.import-wrap pre{white-space:pre-wrap;word-break:break-word;background:rgba(127,127,127,.1);padding:12px;border-radius:8px}
-.import-wrap table{width:100%;border-collapse:collapse}.import-wrap td,.import-wrap th{padding:8px;border-bottom:1px solid #ddd;text-align:left}
-.import-wrap label{display:block;margin:8px 0}
-</style>
+<title>Quản trị nội dung | ALL FOR EOM</title>
+<link rel="stylesheet" href="./style.css">
 </head>
 <body><main class="import-wrap">
-<h1>🧡 Firestore JSON Import</h1>
-<p>Chỉ dành cho quản trị viên. Công cụ nhập dữ liệu mẫu vào Firebase; không tự tạo tài khoản hoặc cộng XP.</p>
-<section class="card">
-<h2>1. Đăng nhập Google</h2>
+<header class="admin-header">
+  <div><p class="project-name">ALL FOR EOM SEONGHYEON</p><h1>Quản trị nội dung</h1></div>
+  <a href="../index.html">Về website ↗</a>
+</header>
+<section class="card auth-card">
+<h2>Đăng nhập quản trị</h2>
 <p id="auth-state" aria-live="polite">Đang tải Firebase…</p>
-<p id="auth-uid"></p>
-<button id="login" type="button" disabled>Đăng nhập Google</button>
+<form id="admin-login" method="post">
+  <div class="event-fields">
+    <label>Tên tài khoản <input id="admin-username" autocomplete="username" required></label>
+    <label>Mật khẩu <input id="admin-password" type="password" autocomplete="current-password" required></label>
+  </div>
+  <button id="login" type="submit" disabled>Đăng nhập</button>
+</form>
 <button id="logout" type="button" disabled>Đăng xuất</button>
 </section>
+<div id="workspace" hidden>
+<nav class="admin-nav" aria-label="Quản lý nội dung">
+  <button type="button" class="secondary" data-view="events" aria-pressed="true">Sự kiện</button>
+  <button type="button" class="secondary" data-view="event-captions" aria-pressed="false">Caption sự kiện</button>
+  <button type="button" class="secondary" data-view="captions" aria-pressed="false">Caption</button>
+  <button type="button" class="secondary" data-view="comments" aria-pressed="false">Bình luận</button>
+  <button type="button" class="secondary" data-view="import" aria-pressed="false">Nhập JSON</button>
+</nav>
+<section class="card event-form" id="manage-events">
+  <h2>Quản lý sự kiện</h2>
+  <label for="event-select">Sự kiện</label>
+  <select id="event-select"><option value="">Tạo sự kiện mới</option></select>
+  <form id="event-form" method="post">
+    <fieldset id="event-fields" disabled>
+      <label>Tên sự kiện <input name="title" required maxlength="160"></label>
+      <div class="event-fields">
+        <label>Bắt đầu (giờ Việt Nam) <input name="start" type="datetime-local" step="1" required></label>
+        <label>Kết thúc (giờ Việt Nam) <input name="end" type="datetime-local" step="1" required></label>
+        <label>Số caption để hoàn thành <input name="requiredCopies" type="number" min="1" max="1000" value="1" required></label>
+        <label>XP thưởng <input name="xpReward" type="number" min="0" max="100000" value="0" required></label>
+        <label>Badge <input name="badge" maxlength="80"></label>
+        <label>Trạng thái
+          <select name="status"><option value="draft">Bản nháp</option><option value="published">Đã xuất bản</option><option value="archived">Đã ẩn</option></select>
+        </label>
+      </div>
+      <label>Tagline <input name="tagline" maxlength="240"></label>
+      <label>Hashtag (cách nhau bằng dấu cách) <input name="hashtags" maxlength="500"></label>
+      <label>Mô tả (mỗi đoạn một dòng) <textarea name="description" rows="3" maxlength="6000"></textarea></label>
+      <label>Từ khóa (mỗi mục một dòng) <textarea name="keywords" rows="2" maxlength="2000"></textarea></label>
+      <label>Lưu ý (mỗi mục một dòng) <textarea name="notes" rows="2" maxlength="3000"></textarea></label>
+      <label>Thêm caption (mỗi caption một dòng) <textarea name="captions" rows="5" maxlength="200000"></textarea></label>
+      <div class="event-fields">
+        <label>Ngôn ngữ caption mới <select name="language"><option value="en">English</option><option value="ko">Korean</option></select></label>
+      </div>
+      <div class="actions">
+        <button type="submit" class="secondary">Lưu sự kiện</button>
+        <button type="submit" value="publish" class="primary">Lưu và xuất bản</button>
+        <button type="submit" value="archive" class="secondary danger" id="archive-event" formnovalidate hidden>Ẩn sự kiện</button>
+      </div>
+    </fieldset>
+  </form>
+  <p id="event-result" role="status"></p>
+</section>
+<section class="card" id="manage-items" hidden>
+  <h2 id="items-heading"></h2>
+  <div class="event-fields">
+    <label id="item-event-field" hidden>Sự kiện <select id="item-event"></select></label>
+    <label id="item-platform-field" hidden>Nền tảng
+      <select id="item-platform"><option value="ig">Instagram</option><option value="x">X</option><option value="ytb">YouTube</option></select>
+    </label>
+    <label>Tìm nội dung <input id="item-search" type="search" placeholder="Nhập từ khóa"></label>
+    <label>Nội dung <select id="item-select"></select></label>
+  </div>
+  <form id="item-form" method="post">
+    <fieldset id="item-fields" disabled>
+      <div class="event-fields">
+        <label id="item-language-field">Ngôn ngữ
+          <select name="language"><option value="en">English</option><option value="ko">Korean</option></select>
+        </label>
+        <label id="item-category-field">Danh mục
+          <select name="category"><option>Ủng hộ</option><option>Cảm ơn</option><option>Chúc mừng</option></select>
+        </label>
+        <label id="item-target-platform-field" hidden>Nền tảng hiển thị
+          <select name="platform"><option value="ig">Instagram</option><option value="x">X</option><option value="ytb">YouTube</option></select>
+        </label>
+      </div>
+      <label>Nội dung văn bản
+        <textarea name="text" rows="7" maxlength="2000" placeholder="Nhập nội dung cần hiển thị" required></textarea>
+      </label>
+      <p id="item-visibility" class="muted"></p>
+      <div class="actions">
+        <button type="submit" class="secondary">Lưu</button>
+        <button type="submit" value="publish" class="primary">Lưu và hiển thị</button>
+        <button type="submit" value="archive" class="secondary danger" id="archive-item" formnovalidate hidden>Ẩn nội dung</button>
+      </div>
+    </fieldset>
+  </form>
+  <p id="item-result" role="status"></p>
+</section>
+<div id="manage-import" hidden>
 <section class="card">
-<h2>2. Chọn file JSON để xem trước</h2>
+<h2>Chọn file JSON để xem trước</h2>
 <input id="file" type="file" accept=".json,application/json">
 <p id="preview-message">Chưa chọn file.</p>
 <div id="preview"></div>
 </section>
 <section class="card">
-<h2>3. Import an toàn</h2>
-<p>Yêu cầu tài khoản Google được cấp UID Admin trong Firestore Security Rules. Nếu rules chưa cấp quyền, thao tác ghi sẽ bị từ chối.</p>
+<h2>Import an toàn</h2>
+<p>Yêu cầu tài khoản được cấp quyền quản trị trong Firebase Authentication.</p>
 <label>Nhập chính xác Project ID để xác nhận
 <input id="confirm-project" type="text" autocomplete="off" placeholder="all-for-eom-seonghyeon-651f9"></label>
 <label><input type="checkbox" id="ack"> Tôi hiểu: chỉ tạo document còn thiếu, không ghi đè dữ liệu có sẵn.</label>
 <button id="import" type="button" disabled>Import vào Firestore</button>
 <pre id="result" role="status" aria-live="polite">Chưa thực hiện.</pre>
 </section>
-<p><a href="../index.html">← Về website</a></p>
+</div>
+</div>
 </main>
 <script type="module" src="./import.js"></script>
 </body></html>

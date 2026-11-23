@@ -3,7 +3,7 @@ name: Deploy WebUI to GitHub Pages
 on:
   push:
     branches:
-      - feature/webui-folder
+      - main
     paths:
       - 'WebUI/**'
       - '.github/workflows/deploy-webui.yml'
@@ -19,21 +19,35 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  deploy:
-    name: Publish WebUI
+  package:
+    name: Package WebUI
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    outputs:
+      artifact_name: ${{ steps.artifact.outputs.name }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Configure Pages
         uses: actions/configure-pages@v5
+      - name: Name Pages artifact
+        id: artifact
+        run: echo "name=github-pages-${GITHUB_RUN_ATTEMPT}" >> "$GITHUB_OUTPUT"
       - name: Upload WebUI
         uses: actions/upload-pages-artifact@v3
         with:
+          name: ${{ steps.artifact.outputs.name }}
           path: './WebUI'
+
+  deploy:
+    name: Publish WebUI
+    needs: package
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: ${{ needs.package.outputs.artifact_name }}
