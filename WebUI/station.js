@@ -216,7 +216,7 @@ function pick(){let p=S.caps.filter(c=>c.l===S.lang&&(S.cat==="all"||c.c===S.cat
  let f=p.filter(c=>!S.recent.includes(c.id));if(!f.length){f=p;S.recent=[]}
  S.cur=f.length?f[Math.floor(Math.random()*f.length)].id:null}
 function curCap(){return S.caps.find(c=>c.id===S.cur)}
-async function copy(){const c=curCap();if(!c)return;const txt=c.t+"\n\n#ACEOMonTop #ソンヒョン";
+async function copy(){const c=curCap();if(!c)return;const txt=c.t+"\n\n#EomSeonghyeon #엄성현 #ACEOMonTop #ソンヒョン";
  const session=profile;
  if(!await clip(txt))return;
  if(session!==profile||!canEditProfile()){toast("Đã sao chép. Hồ sơ chưa sẵn sàng để ghi tiến độ.");return;}
